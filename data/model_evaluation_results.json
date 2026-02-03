@@ -1,0 +1,63 @@
+{
+  "date": "2026-02-02T14:36:31.790849",
+  "random_forest": {
+    "mae": 0.0001,
+    "rmse": 0.0062,
+    "r2": 0.9998,
+    "mape": 0.0061
+  },
+  "cross_validation": {
+    "mae_mean": 0.0002,
+    "mae_std": 0.0002,
+    "r2_mean": 0.9994,
+    "r2_std": 0.0004
+  },
+  "top_features": [
+    {
+      "feature": "tendance_7j",
+      "importance": 0.9564471676047331
+    },
+    {
+      "feature": "admissions_lag_7",
+      "importance": 0.03638769356919292
+    },
+    {
+      "feature": "admissions_std_7",
+      "importance": 0.0069161659771483225
+    },
+    {
+      "feature": "admissions_std_14",
+      "importance": 6.659273923734701e-05
+    },
+    {
+      "feature": "admissions_ma_7",
+      "importance": 6.29711029350847e-05
+    },
+    {
+      "feature": "admissions_ma_14",
+      "importance": 2.5323128818870204e-05
+    },
+    {
+      "feature": "admissions_lag_2",
+      "importance": 2.4328789466853827e-05
+    },
+    {
+      "feature": "admissions_std_30",
+      "importance": 2.2325530830800157e-05
+    },
+    {
+      "feature": "admissions_lag_3",
+      "importance": 1.094653419202548e-05
+    },
+    {
+      "feature": "admissions_ma_30",
+      "importance": 1.0456265862349025e-05
+    }
+  ],
+  "arima": {
+    "mae": 0.3085,
+    "rmse": 0.4457,
+    "r2": -0.0,
+    "mape": 22.4957
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "source": "Hospi-Diag / ATIH",
+  "finess": "750100125",
+  "etablissement": "GROUPEMENT HOSPITALIER PITIE-SALPETRIERE",
+  "region": "ILE DE FRANCE",
+  "categorie": "CENTRE HOSPITALIER REGIONAL",
+  "annees": [2020, 2021, 2022, 2023],
+  
+  "activite_globale_pmsi": {
+    "rsa_medecine_hc": [37102, 37006, 36182, 36174],
+    "rsa_chirurgie_hc": [16886, 17858, 18218, 18625],
+    "rsa_obstetrique_hc": [2495, 2527, 2458, 2538],
+    "rsa_medecine_ambulatoire": [23457, 30642, 32187, 33976],
+    "rsa_chirurgie_ambulatoire": [5779, 6959, 8256, 8624],
+    "rsa_obstetrique_ambulatoire": [1547, 1632, 1640, 1424],
+    "seances_chimiotherapie": [18121, 20305, 22221, 21991],
+    "seances_radiotherapie": [18891, 17774, 17999, 16557],
+    "seances_hemodialyse": [7307, 7690, 8079, 7918],
+    "seances_autres": [12824, 13344, 14348, 15244],
+    "accouchements": [2307, 2225, 2207, 2253],
+    "actes_chirurgicaux": [22332, 24455, 25971, 26832],
+    "actes_endoscopies": [5807, 5771, 6134, 6579]
+  },
+  
+  "interventions_frequentes": {
+    "chirurgie_sein": [224, 239, 247, 237],
+    "cataracte": [1336, 1864, 2215, 2182],
+    "arthroscopie_genou": [158, 188, 173, 155],
+    "rtu_prostate": [205, 212, 257, 326],
+    "hernie_adulte": [447, 348, 413, 449]
+  },
+  
+  "lits_places_sae": {
+    "lits_medecine": [1016, 895, 855, 742],
+    "lits_soins_intensifs": [97, 97, 104, 70],
+    "lits_surveillance_continue": [57, 51, 51, 49],
+    "lits_reanimation": [117, 110, 110, 104],
+    "places_medecine": [199, 199, 206, 231],
+    "lits_chirurgie": [386, 510, 503, 385],
+    "places_chirurgie": [46, 49, 54, 54],
+    "lits_obstetrique": [55, 46, 48, 48],
+    "places_obstetrique": [8, 8, 8, 7]
+  },
+  
+  "plateaux_techniques": {
+    "scanners": [6, 7, 7, 7],
+    "irm": [6, 6, 6, 6],
+    "tep_scan": [3, 3, 3, 3],
+    "salles_radiologie_vasculaire": [7, 7, 7, 7],
+    "salles_intervention_chirurgicale": [49, 49, 52, 53]
+  },
+  
+  "personnel_etp": {
+    "etp_medicaux_total": [914.48, 955.87, 949.03, 958.00],
+    "medecins_hors_anesthesistes": [471.54, 511.86, 505.89, 479.00],
+    "chirurgiens_hors_gyneco": [116.36, 123.84, 125.01, 120.00],
+    "anesthesistes": [92.24, 72.77, 83.37, 122.00],
+    "gynecologues_obstetriciens": [14.83, 14.88, 13.36, 13.00],
+    "etp_non_medicaux_total": [7248.95, 7422.18, 7179.11, 7099.49],
+    "direction_administratifs": [767.81, 796.88, 752.13, 745.33],
+    "services_soins": [4917.54, 4988.73, 4817.93, 4715.76],
+    "educatifs_sociaux": [98.90, 98.49, 92.85, 86.94],
+    "medico_techniques": [621.19, 619.24, 611.48, 598.34],
+    "techniques_ouvriers": [843.51, 918.84, 904.72, 953.12]
+  },
+  
+  "indicateurs_activite": {
+    "pct_cancerologie": [17.3, 16.5, 17.0, 17.0],
+    "pct_ghm_recours_reference": [9.20, 9.03, 9.21, 9.51],
+    "pct_severite_3_4": [12.17, 11.14, 10.55, 10.41],
+    "pct_entrees_hc_urgences": [21.9, 21.2, 20.0, 3.2],
+    "taux_occupation_medecine": [55.9, 62.2, 58.8, 67.0],
+    "taux_occupation_chirurgie": [109.9, 86.5, 85.2, 109.1],
+    "taux_occupation_obstetrique": [64.3, 71.7, 69.0, 68.1]
+  },
+  
+  "indicateurs_organisation": {
+    "ip_dms_medecine": [1.092, 1.073, 1.009, 1.013],
+    "ip_dms_chirurgie": [1.150, 1.127, 1.075, 1.053],
+    "ip_dms_obstetrique": [1.049, 1.082, 1.084, 1.026],
+    "icr_par_salle_intervention": [273984, 290309, 281831, 286732],
+    "taux_cesarienne": [25.01, 24.71, 23.10, 27.43],
+    "taux_peridurale": [89.76, 90.68, 87.15, 86.54],
+    "taux_chirurgie_ambulatoire": [25.49, 28.05, 31.21, 31.71],
+    "taux_18_gestes_marqueurs_ambu": [68.83, 72.56, 79.24, 77.32],
+    "taux_utilisation_places_chir_ambu": [57.1, 64.6, 69.6, 72.8]
+  },
+  
+  "indicateurs_rh": {
+    "accouchements_par_gyneco_sf": [46, 43, 46, 46],
+    "icr_anesthesie_par_anesth_iade": [17848.5, 19228.8, 18006.3, 16420.0],
+    "icr_chirurgicaux_par_chirurgien": [87890.7, 90115.6, 92470.5, 97765.6],
+    "ide_as_par_cadre": [24.0, 24.5, 25.3, 24.6],
+    "iade_par_anesthesiste": [0.9, 1.1, 1.0, 0.7],
+    "sf_par_gyneco": [2.3, 2.4, 2.5, 2.7]
+  },
+  
+  "finances_2020": {
+    "total_produits_exploitation": 7923070127,
+    "recettes_ghs": 2843048761,
+    "recettes_mo_dmi": 564857736,
+    "daf": 557434664,
+    "mig_fir": 385976726,
+    "ac": 670914800,
+    "merri": 771629417,
+    "recettes_externes_urgences": 552430284,
+    "recettes_mutuelles": 804069615,
+    "total_charges_exploitation": 7727081482,
+    "depenses_personnel": 5027249019,
+    "charges_medicales": 1817795540,
+    "resultat_exploitation": -161646143,
+    "resultat_financier": -50073141,
+    "resultat_exceptionnel": -33850501,
+    "resultat_net_consolide": -245569785,
+    "total_bilan": 5710063394,
+    "capitaux_propres": 816323742,
+    "immobilisations": 3763521970,
+    "dette_financiere": 2798622817,
+    "frng": 343246501,
+    "bfr": 626874476,
+    "tresorerie": -283627975
+  }
+}

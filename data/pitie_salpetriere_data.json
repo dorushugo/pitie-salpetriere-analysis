@@ -1,0 +1,109 @@
+{
+  "etablissement": {
+    "nom": "Hôpital Universitaire Pitié-Salpêtrière",
+    "groupe": "AP-HP.Sorbonne Université",
+    "adresse": "47-83, boulevard de l'Hôpital, 75651 Paris cedex 13",
+    "telephone": "01 42 16 00 00",
+    "finess": "750100125",
+    "categorie": "CHU - Centre Hospitalier Universitaire",
+    "statut": "Public",
+    "surface_hectares": 33,
+    "nb_batiments": 90,
+    "nb_services": 77,
+    "nb_poles": 11
+  },
+  "capacite": {
+    "source": "FHF - Annuaire des établissements",
+    "date_mise_a_jour": "2019-01-23",
+    "lits_et_places": {
+      "medecine": 844,
+      "chirurgie": 561,
+      "gyneco_obstetrique": 56,
+      "psychiatrie": 115,
+      "moyen_sejour": 104,
+      "long_sejour": 37,
+      "total": 1717
+    },
+    "repartition_pct": {
+      "medecine": 49.2,
+      "chirurgie": 32.7,
+      "psychiatrie": 6.7,
+      "moyen_sejour": 6.1,
+      "gyneco_obstetrique": 3.3,
+      "long_sejour": 2.2
+    }
+  },
+  "activite_estimee": {
+    "source": "Estimation basée sur moyennes CHU et AP-HP 2023",
+    "passages_urgences_jour": 280,
+    "passages_urgences_annuels": 102200,
+    "hospitalisations_jour": 150,
+    "hospitalisations_annuelles": 54750,
+    "consultations_externes_jour": 3500,
+    "consultations_externes_annuelles": 1277500,
+    "interventions_chirurgicales_jour": 90,
+    "interventions_chirurgicales_annuelles": 32850,
+    "naissances_annuelles": 2800,
+    "taux_occupation_moyen_pct": 87.5
+  },
+  "taux_occupation_historique": {
+    "source": "Estimations basées sur données AP-HP et DREES",
+    "note": "Taux occupation lits MCO (médecine-chirurgie-obstétrique)",
+    "historique": {
+      "2019": 85.2,
+      "2020": 78.3,
+      "2021": 82.1,
+      "2022": 86.5,
+      "2023": 88.7,
+      "2024": 89.2
+    },
+    "par_service_2024": {
+      "urgences": 105,
+      "reanimation": 92,
+      "medecine": 88,
+      "chirurgie": 85,
+      "maternite": 75,
+      "psychiatrie": 95
+    }
+  },
+  "personnel": {
+    "source": "Estimations AP-HP 2023",
+    "effectifs": {
+      "medecins_hospitalo_universitaires": 450,
+      "medecins_praticiens_hospitaliers": 600,
+      "internes": 500,
+      "infirmiers": 2800,
+      "aides_soignants": 1800,
+      "administratifs": 1200,
+      "techniques_logistiques": 800,
+      "total": 8150
+    },
+    "ratio_personnel_lit": 4.75
+  },
+  "specialites_excellence": [
+    "Neurologie et Neurosciences",
+    "Cardiologie et Chirurgie Cardiaque",
+    "Oncologie",
+    "Transplantation d'organes",
+    "Maladies infectieuses",
+    "Psychiatrie",
+    "Médecine interne",
+    "Endocrinologie et diabétologie"
+  ],
+  "contexte_ap_hp": {
+    "source": "Rapports AP-HP 2023-2024",
+    "lits_fermes_2018_2022": 1800,
+    "lits_rouverts_fin_2023": 400,
+    "deficit_2023_millions_euros": 400,
+    "tendance": "Relance activité et réouverture progressive"
+  },
+  "urgences": {
+    "source": "mon.aphp.fr et estimations",
+    "horaires": "24h/24, 7j/7",
+    "temps_attente_median_min": 180,
+    "temps_attente_p90_min": 360,
+    "taux_hospitalisation_urgences_pct": 25,
+    "note": "50% des patients restent plus de 3h aux urgences (donnée nationale 2023)"
+  },
+  "derniere_mise_a_jour": "2026-02-02"
+}

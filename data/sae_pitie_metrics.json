@@ -1,0 +1,104 @@
+{
+  "source": "DREES - SAE 2024",
+  "finess": "750100125",
+  "extracted_at": "2026-02-02T14:48:54.696756",
+  "metrics": {
+    "identification": {
+      "finess": "750100125",
+      "raison_sociale": "GHU APHP SUN SITE PITIE SALPETRIERE",
+      "groupe": "GHU APHP SORBONNE UNIVERSITE",
+      "categorie": "PUB1",
+      "region": 11,
+      "departement": "75",
+      "commune": "PARIS 13E ARRONDISSEMENT",
+      "adresse": "47 BD DE L HOPITAL"
+    },
+    "capacites": {
+      "mco": {
+        "lits_medecine": null,
+        "lits_chirurgie": null,
+        "lits_obstetrique": null,
+        "lits_total_hc": null,
+        "places_hp": null,
+        "places_anesthesie": null,
+        "journees_medecine": null,
+        "journees_chirurgie": null,
+        "journees_obstetrique": null,
+        "sejours_medecine": null,
+        "sejours_chirurgie": null,
+        "sejours_obstetrique": null,
+        "venues_externes": null,
+        "seances": null
+      },
+      "reanimation": {
+        "lits_reanimation": null,
+        "lits_soins_intensifs": null,
+        "lits_surveillance_continue": null,
+        "journees_reanimation": null,
+        "journees_soins_intensifs": null,
+        "journees_surveillance_continue": null,
+        "admissions_reanimation": null
+      },
+      "psychiatrie": {
+        "lits_temps_complet": null,
+        "places_temps_partiel": null,
+        "journees_hospitalisation": null,
+        "files_actives": null,
+        "actes_ambulatoires": null
+      },
+      "ssr": {
+        "lits_hospitalisation_complete": null,
+        "places_hospitalisation_partielle": null,
+        "journees_hc": null,
+        "venues_hp": null
+      }
+    },
+    "activite": {
+      "urgences": {
+        "passages_total": null,
+        "passages_pediatriques": null,
+        "hospitalisations_uhcd": null,
+        "lits_uhcd": null,
+        "lits_usc_urgences": null,
+        "smur_sorties": null
+      },
+      "dialyse": {
+        "postes_hemodialyse": null,
+        "seances_hemodialyse": null,
+        "patients_dialyse_peritoneale": null
+      },
+      "cancerologie": {
+        "sejours_chimio": null,
+        "seances_chimio": null,
+        "sejours_radiotherapie": null,
+        "seances_radiotherapie": null
+      },
+      "perinatalite": {
+        "accouchements": null,
+        "naissances_vivantes": null,
+        "cesariennes": null,
+        "lits_obstetrique": null,
+        "lits_neonatologie": null,
+        "lits_reanimation_neonatale": null
+      }
+    },
+    "personnel": {},
+    "equipements": {
+      "blocs": {
+        "salles_bloc": null,
+        "salles_interventionnelles": 6.0,
+        "salles_endoscopie": null,
+        "interventions_bloc": null,
+        "actes_interventionnels": null
+      },
+      "imagerie": {
+        "scanners": null,
+        "irm": null,
+        "pet_scan": null,
+        "gamma_cameras": null,
+        "actes_scanner": null,
+        "actes_irm": null
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+annee,rsa_medecine_hc,rsa_chirurgie_hc,rsa_obstetrique_hc,rsa_medecine_ambu,rsa_chirurgie_ambu,seances_chimio,seances_radio,seances_dialyse,accouchements,actes_chirurgicaux,lits_medecine,lits_reanimation,lits_soins_intensifs,lits_usc,lits_chirurgie,lits_obstetrique,places_medecine,places_chirurgie,scanners,irm,salles_bloc,etp_medicaux,etp_non_medicaux,etp_soins,taux_occ_medecine,taux_occ_chirurgie,taux_chir_ambulatoire,ip_dms_medecine,ip_dms_chirurgie
+2020,37102,16886,2495,23457,5779,18121,18891,7307,2307,22332,1016,117,97,57,386,55,199,46,6,6,49,914.48,7248.95,4917.54,55.9,109.9,25.49,1.092,1.15
+2021,37006,17858,2527,30642,6959,20305,17774,7690,2225,24455,895,110,97,51,510,46,199,49,7,6,49,955.87,7422.18,4988.73,62.2,86.5,28.05,1.073,1.127
+2022,36182,18218,2458,32187,8256,22221,17999,8079,2207,25971,855,110,104,51,503,48,206,54,7,6,52,949.03,7179.11,4817.93,58.8,85.2,31.21,1.009,1.075
+2023,36174,18625,2538,33976,8624,21991,16557,7918,2253,26832,742,104,70,49,385,48,231,54,7,6,53,958.0,7099.49,4715.76,67.0,109.1,31.71,1.013,1.053

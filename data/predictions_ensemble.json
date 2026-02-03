@@ -1,0 +1,297 @@
+{
+  "models": [
+    "ARIMA",
+    "RandomForest"
+  ],
+  "weights": {
+    "arima": 0.27,
+    "random_forest": 0.73
+  },
+  "generated_at": "2026-02-02T11:13:33.713382",
+  "metrics": {
+    "arima": {
+      "mae": 30.15,
+      "rmse": 39.62,
+      "mape": 9.09,
+      "r2": -0.0926
+    },
+    "random_forest": {
+      "mae": 26.42,
+      "rmse": 34.2,
+      "mape": 5.83,
+      "r2": 0.8099
+    }
+  },
+  "predictions": [
+    {
+      "date": "2026-01-01",
+      "arima_prediction": 380,
+      "rf_prediction": 518,
+      "ensemble_prediction": 481,
+      "lower_bound": 288,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-02",
+      "arima_prediction": 380,
+      "rf_prediction": 518,
+      "ensemble_prediction": 481,
+      "lower_bound": 285,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-03",
+      "arima_prediction": 375,
+      "rf_prediction": 518,
+      "ensemble_prediction": 479,
+      "lower_bound": 277,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-04",
+      "arima_prediction": 372,
+      "rf_prediction": 518,
+      "ensemble_prediction": 479,
+      "lower_bound": 271,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-05",
+      "arima_prediction": 368,
+      "rf_prediction": 518,
+      "ensemble_prediction": 477,
+      "lower_bound": 266,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-06",
+      "arima_prediction": 365,
+      "rf_prediction": 518,
+      "ensemble_prediction": 477,
+      "lower_bound": 262,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-07",
+      "arima_prediction": 363,
+      "rf_prediction": 518,
+      "ensemble_prediction": 476,
+      "lower_bound": 258,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-08",
+      "arima_prediction": 361,
+      "rf_prediction": 518,
+      "ensemble_prediction": 476,
+      "lower_bound": 255,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-09",
+      "arima_prediction": 359,
+      "rf_prediction": 518,
+      "ensemble_prediction": 475,
+      "lower_bound": 252,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-10",
+      "arima_prediction": 357,
+      "rf_prediction": 518,
+      "ensemble_prediction": 474,
+      "lower_bound": 250,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-11",
+      "arima_prediction": 356,
+      "rf_prediction": 518,
+      "ensemble_prediction": 474,
+      "lower_bound": 248,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-12",
+      "arima_prediction": 354,
+      "rf_prediction": 518,
+      "ensemble_prediction": 474,
+      "lower_bound": 247,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-13",
+      "arima_prediction": 353,
+      "rf_prediction": 518,
+      "ensemble_prediction": 473,
+      "lower_bound": 245,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-14",
+      "arima_prediction": 352,
+      "rf_prediction": 518,
+      "ensemble_prediction": 473,
+      "lower_bound": 244,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-15",
+      "arima_prediction": 351,
+      "rf_prediction": 518,
+      "ensemble_prediction": 473,
+      "lower_bound": 243,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-16",
+      "arima_prediction": 350,
+      "rf_prediction": 518,
+      "ensemble_prediction": 473,
+      "lower_bound": 242,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-17",
+      "arima_prediction": 350,
+      "rf_prediction": 518,
+      "ensemble_prediction": 473,
+      "lower_bound": 241,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-18",
+      "arima_prediction": 349,
+      "rf_prediction": 518,
+      "ensemble_prediction": 472,
+      "lower_bound": 240,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-19",
+      "arima_prediction": 349,
+      "rf_prediction": 518,
+      "ensemble_prediction": 472,
+      "lower_bound": 240,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-20",
+      "arima_prediction": 348,
+      "rf_prediction": 518,
+      "ensemble_prediction": 472,
+      "lower_bound": 239,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-21",
+      "arima_prediction": 348,
+      "rf_prediction": 518,
+      "ensemble_prediction": 472,
+      "lower_bound": 239,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-22",
+      "arima_prediction": 347,
+      "rf_prediction": 518,
+      "ensemble_prediction": 472,
+      "lower_bound": 238,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-23",
+      "arima_prediction": 347,
+      "rf_prediction": 518,
+      "ensemble_prediction": 472,
+      "lower_bound": 238,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-24",
+      "arima_prediction": 347,
+      "rf_prediction": 518,
+      "ensemble_prediction": 472,
+      "lower_bound": 238,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-25",
+      "arima_prediction": 346,
+      "rf_prediction": 518,
+      "ensemble_prediction": 472,
+      "lower_bound": 237,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-26",
+      "arima_prediction": 346,
+      "rf_prediction": 518,
+      "ensemble_prediction": 472,
+      "lower_bound": 237,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-27",
+      "arima_prediction": 346,
+      "rf_prediction": 518,
+      "ensemble_prediction": 472,
+      "lower_bound": 237,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-28",
+      "arima_prediction": 346,
+      "rf_prediction": 518,
+      "ensemble_prediction": 472,
+      "lower_bound": 237,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-29",
+      "arima_prediction": 346,
+      "rf_prediction": 518,
+      "ensemble_prediction": 472,
+      "lower_bound": 237,
+      "upper_bound": 585,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-30",
+      "arima_prediction": 346,
+      "rf_prediction": 518,
+      "ensemble_prediction": 472,
+      "lower_bound": 237,
+      "upper_bound": 585,
+      "confidence": 0.95
+    }
+  ]
+}

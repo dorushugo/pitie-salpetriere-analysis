@@ -1,0 +1,57 @@
+{
+  "services": [
+    "Médecine",
+    "Chirurgie",
+    "Réanimation",
+    "Soins Intensifs",
+    "USC",
+    "Urgences",
+    "Obstétrique"
+  ],
+  "derniere_maj": "2026-02-02",
+  "source": "Hospi-Diag ATIH 2020-2023 + SAE DREES",
+  "services_details": {
+    "Médecine": {
+      "lits_2023": 742,
+      "places_ambu": 231,
+      "taux_occupation_ref": 67.0,
+      "admissions_jour": 99
+    },
+    "Chirurgie": {
+      "lits_2023": 385,
+      "places_ambu": 54,
+      "taux_occupation_ref": 109.1,
+      "admissions_jour": 51
+    },
+    "Réanimation": {
+      "lits_2023": 104,
+      "places_ambu": 0,
+      "taux_occupation_ref": 85.0,
+      "admissions_jour": 8
+    },
+    "Soins Intensifs": {
+      "lits_2023": 70,
+      "places_ambu": 0,
+      "taux_occupation_ref": 82.0,
+      "admissions_jour": 5
+    },
+    "USC": {
+      "lits_2023": 49,
+      "places_ambu": 0,
+      "taux_occupation_ref": 78.0,
+      "admissions_jour": 4
+    },
+    "Urgences": {
+      "lits_2023": 80,
+      "places_ambu": 0,
+      "taux_occupation_ref": 95.0,
+      "admissions_jour": 350
+    },
+    "Obstétrique": {
+      "lits_2023": 48,
+      "places_ambu": 7,
+      "taux_occupation_ref": 68.1,
+      "admissions_jour": 7
+    }
+  }
+}

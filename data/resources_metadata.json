@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-02-02T14:51:06.227935",
+  "sources": [
+    "FHF Annuaire - Pitié-Salpêtrière (Janvier 2019)",
+    "DREES SAE 2024 - Taux occupation nationaux",
+    "Réseau Sentinelles - Variations saisonnières"
+  ],
+  "capacite_totale": 1629,
+  "services": [
+    "Médecine",
+    "Chirurgie",
+    "Urgences",
+    "Réanimation",
+    "Soins_Intensifs",
+    "USC",
+    "SSR",
+    "Obstétrique"
+  ],
+  "periode": {
+    "debut": "2024-01-01",
+    "fin": "2025-12-31",
+    "jours": 731
+  },
+  "taux_occupation_moyen": 81.4
+}

@@ -1,0 +1,1268 @@
+{
+  "generated_at": "2026-02-02T11:16:15.545756",
+  "source": "Données réelles SPF, Sentinelles, SI-VIC",
+  "components": {
+    "epidemic_waves": {
+      "waves": [
+        {
+          "start": "2020-03-09T00:00:00",
+          "peak_date": "2020-03-23T00:00:00",
+          "end": "2020-06-08T00:00:00",
+          "duration_weeks": 13,
+          "peak_value": 20245.81,
+          "time_to_peak_weeks": 2
+        },
+        {
+          "start": "2020-09-07T00:00:00",
+          "peak_date": "2020-11-02T00:00:00",
+          "end": "2021-06-07T00:00:00",
+          "duration_weeks": 39,
+          "peak_value": 6820.48,
+          "time_to_peak_weeks": 8
+        },
+        {
+          "start": "2021-07-26T00:00:00",
+          "peak_date": "2021-08-09T00:00:00",
+          "end": "2021-09-13T00:00:00",
+          "duration_weeks": 7,
+          "peak_value": 2426.29,
+          "time_to_peak_weeks": 2
+        },
+        {
+          "start": "2021-11-29T00:00:00",
+          "peak_date": "2022-01-03T00:00:00",
+          "end": "2022-05-09T00:00:00",
+          "duration_weeks": 23,
+          "peak_value": 5653.72,
+          "time_to_peak_weeks": 5
+        },
+        {
+          "start": "2022-06-20T00:00:00",
+          "peak_date": "2022-07-04T00:00:00",
+          "end": "2022-08-22T00:00:00",
+          "duration_weeks": 9,
+          "peak_value": 3024.47,
+          "time_to_peak_weeks": 2
+        },
+        {
+          "start": "2022-12-05T00:00:00",
+          "peak_date": "2022-12-12T00:00:00",
+          "end": "2023-01-02T00:00:00",
+          "duration_weeks": 4,
+          "peak_value": 1592.65,
+          "time_to_peak_weeks": 1
+        },
+        {
+          "start": "2023-12-04T00:00:00",
+          "peak_date": "2023-12-11T00:00:00",
+          "end": "2024-01-08T00:00:00",
+          "duration_weeks": 5,
+          "peak_value": 1571.72,
+          "time_to_peak_weeks": 1
+        }
+      ],
+      "patterns": {
+        "avg_duration_weeks": 14.3,
+        "avg_time_to_peak_weeks": 3.0,
+        "threshold_75pct": 1519.88
+      }
+    },
+    "grippe_seasonality": {
+      "alert_levels": {
+        "normal": 101.0,
+        "vigilance": 151.4,
+        "pre_epidemie": 252.4,
+        "epidemie": 403.8,
+        "crise": 605.7
+      },
+      "calendar": {
+        "1": {
+          "expected_incidence": 219.9,
+          "expected_level": "vigilance",
+          "historical_max": 922.0,
+          "historical_min": 29.0,
+          "variability": 198.8
+        },
+        "2": {
+          "expected_incidence": 214.3,
+          "expected_level": "vigilance",
+          "historical_max": 886.0,
+          "historical_min": 25.0,
+          "variability": 176.7
+        },
+        "3": {
+          "expected_incidence": 250.6,
+          "expected_level": "vigilance",
+          "historical_max": 829.0,
+          "historical_min": 30.0,
+          "variability": 200.7
+        },
+        "4": {
+          "expected_incidence": 313.2,
+          "expected_level": "pre_epidemie",
+          "historical_max": 868.0,
+          "historical_min": 35.0,
+          "variability": 234.7
+        },
+        "5": {
+          "expected_incidence": 362.8,
+          "expected_level": "pre_epidemie",
+          "historical_max": 1155.0,
+          "historical_min": 29.0,
+          "variability": 280.1
+        },
+        "6": {
+          "expected_incidence": 371.7,
+          "expected_level": "pre_epidemie",
+          "historical_max": 1026.0,
+          "historical_min": 30.0,
+          "variability": 283.9
+        },
+        "7": {
+          "expected_incidence": 320.4,
+          "expected_level": "pre_epidemie",
+          "historical_max": 896.0,
+          "historical_min": 25.0,
+          "variability": 263.1
+        },
+        "8": {
+          "expected_incidence": 253.8,
+          "expected_level": "pre_epidemie",
+          "historical_max": 810.0,
+          "historical_min": 17.0,
+          "variability": 210.4
+        },
+        "9": {
+          "expected_incidence": 190.9,
+          "expected_level": "vigilance",
+          "historical_max": 670.0,
+          "historical_min": 10.0,
+          "variability": 162.8
+        },
+        "10": {
+          "expected_incidence": 156.4,
+          "expected_level": "vigilance",
+          "historical_max": 640.0,
+          "historical_min": 8.0,
+          "variability": 144.6
+        },
+        "11": {
+          "expected_incidence": 133.8,
+          "expected_level": "normal",
+          "historical_max": 566.0,
+          "historical_min": 9.0,
+          "variability": 137.0
+        },
+        "12": {
+          "expected_incidence": 118.1,
+          "expected_level": "normal",
+          "historical_max": 507.0,
+          "historical_min": 7.0,
+          "variability": 127.8
+        },
+        "13": {
+          "expected_incidence": 102.7,
+          "expected_level": "normal",
+          "historical_max": 512.0,
+          "historical_min": 6.0,
+          "variability": 116.5
+        },
+        "14": {
+          "expected_incidence": 83.6,
+          "expected_level": "normal",
+          "historical_max": 547.0,
+          "historical_min": 2.0,
+          "variability": 110.4
+        },
+        "15": {
+          "expected_incidence": 55.0,
+          "expected_level": "normal",
+          "historical_max": 313.0,
+          "historical_min": 1.0,
+          "variability": 67.5
+        },
+        "16": {
+          "expected_incidence": 39.3,
+          "expected_level": "normal",
+          "historical_max": 243.0,
+          "historical_min": 2.0,
+          "variability": 49.1
+        },
+        "17": {
+          "expected_incidence": 27.5,
+          "expected_level": "normal",
+          "historical_max": 153.0,
+          "historical_min": 3.0,
+          "variability": 30.4
+        },
+        "18": {
+          "expected_incidence": 19.0,
+          "expected_level": "normal",
+          "historical_max": 74.0,
+          "historical_min": 2.0,
+          "variability": 18.5
+        },
+        "19": {
+          "expected_incidence": 16.3,
+          "expected_level": "normal",
+          "historical_max": 78.0,
+          "historical_min": 2.0,
+          "variability": 15.0
+        },
+        "20": {
+          "expected_incidence": 14.3,
+          "expected_level": "normal",
+          "historical_max": 51.0,
+          "historical_min": 4.0,
+          "variability": 10.4
+        },
+        "21": {
+          "expected_incidence": 12.3,
+          "expected_level": "normal",
+          "historical_max": 47.0,
+          "historical_min": 1.0,
+          "variability": 10.1
+        },
+        "22": {
+          "expected_incidence": 12.3,
+          "expected_level": "normal",
+          "historical_max": 51.0,
+          "historical_min": 1.0,
+          "variability": 10.7
+        },
+        "23": {
+          "expected_incidence": 13.8,
+          "expected_level": "normal",
+          "historical_max": 54.0,
+          "historical_min": 2.0,
+          "variability": 11.3
+        },
+        "24": {
+          "expected_incidence": 12.8,
+          "expected_level": "normal",
+          "historical_max": 62.0,
+          "historical_min": 1.0,
+          "variability": 11.5
+        },
+        "25": {
+          "expected_incidence": 12.8,
+          "expected_level": "normal",
+          "historical_max": 71.0,
+          "historical_min": 1.0,
+          "variability": 13.7
+        },
+        "26": {
+          "expected_incidence": 11.5,
+          "expected_level": "normal",
+          "historical_max": 66.0,
+          "historical_min": 0.0,
+          "variability": 12.6
+        },
+        "27": {
+          "expected_incidence": 11.2,
+          "expected_level": "normal",
+          "historical_max": 71.0,
+          "historical_min": 1.0,
+          "variability": 14.0
+        },
+        "28": {
+          "expected_incidence": 9.8,
+          "expected_level": "normal",
+          "historical_max": 81.0,
+          "historical_min": 1.0,
+          "variability": 14.1
+        },
+        "29": {
+          "expected_incidence": 9.5,
+          "expected_level": "normal",
+          "historical_max": 59.0,
+          "historical_min": 2.0,
+          "variability": 10.4
+        },
+        "30": {
+          "expected_incidence": 8.4,
+          "expected_level": "normal",
+          "historical_max": 55.0,
+          "historical_min": 0.0,
+          "variability": 9.9
+        },
+        "31": {
+          "expected_incidence": 10.6,
+          "expected_level": "normal",
+          "historical_max": 48.0,
+          "historical_min": 2.0,
+          "variability": 11.1
+        },
+        "32": {
+          "expected_incidence": 8.0,
+          "expected_level": "normal",
+          "historical_max": 37.0,
+          "historical_min": 0.0,
+          "variability": 9.1
+        },
+        "33": {
+          "expected_incidence": 8.9,
+          "expected_level": "normal",
+          "historical_max": 41.0,
+          "historical_min": 0.0,
+          "variability": 10.2
+        },
+        "34": {
+          "expected_incidence": 10.7,
+          "expected_level": "normal",
+          "historical_max": 73.0,
+          "historical_min": 0.0,
+          "variability": 14.3
+        },
+        "35": {
+          "expected_incidence": 11.1,
+          "expected_level": "normal",
+          "historical_max": 55.0,
+          "historical_min": 0.0,
+          "variability": 13.9
+        },
+        "36": {
+          "expected_incidence": 13.5,
+          "expected_level": "normal",
+          "historical_max": 73.0,
+          "historical_min": 2.0,
+          "variability": 16.4
+        },
+        "37": {
+          "expected_incidence": 21.7,
+          "expected_level": "normal",
+          "historical_max": 161.0,
+          "historical_min": 2.0,
+          "variability": 29.0
+        },
+        "38": {
+          "expected_incidence": 32.7,
+          "expected_level": "normal",
+          "historical_max": 220.0,
+          "historical_min": 4.0,
+          "variability": 40.2
+        },
+        "39": {
+          "expected_incidence": 40.9,
+          "expected_level": "normal",
+          "historical_max": 193.0,
+          "historical_min": 4.0,
+          "variability": 37.6
+        },
+        "40": {
+          "expected_incidence": 43.1,
+          "expected_level": "normal",
+          "historical_max": 178.0,
+          "historical_min": 11.0,
+          "variability": 35.1
+        },
+        "41": {
+          "expected_incidence": 45.4,
+          "expected_level": "normal",
+          "historical_max": 160.0,
+          "historical_min": 11.0,
+          "variability": 34.0
+        },
+        "42": {
+          "expected_incidence": 46.4,
+          "expected_level": "normal",
+          "historical_max": 158.0,
+          "historical_min": 12.0,
+          "variability": 33.8
+        },
+        "43": {
+          "expected_incidence": 45.0,
+          "expected_level": "normal",
+          "historical_max": 209.0,
+          "historical_min": 10.0,
+          "variability": 38.2
+        },
+        "44": {
+          "expected_incidence": 44.5,
+          "expected_level": "normal",
+          "historical_max": 271.0,
+          "historical_min": 10.0,
+          "variability": 45.1
+        },
+        "45": {
+          "expected_incidence": 52.7,
+          "expected_level": "normal",
+          "historical_max": 246.0,
+          "historical_min": 14.0,
+          "variability": 52.1
+        },
+        "46": {
+          "expected_incidence": 62.9,
+          "expected_level": "normal",
+          "historical_max": 356.0,
+          "historical_min": 14.0,
+          "variability": 68.3
+        },
+        "47": {
+          "expected_incidence": 104.1,
+          "expected_level": "normal",
+          "historical_max": 603.0,
+          "historical_min": 19.0,
+          "variability": 140.8
+        },
+        "48": {
+          "expected_incidence": 165.6,
+          "expected_level": "vigilance",
+          "historical_max": 1141.0,
+          "historical_min": 20.0,
+          "variability": 261.5
+        },
+        "49": {
+          "expected_incidence": 239.4,
+          "expected_level": "vigilance",
+          "historical_max": 1729.0,
+          "historical_min": 17.0,
+          "variability": 388.8
+        },
+        "50": {
+          "expected_incidence": 285.8,
+          "expected_level": "pre_epidemie",
+          "historical_max": 1793.0,
+          "historical_min": 19.0,
+          "variability": 403.3
+        },
+        "51": {
+          "expected_incidence": 308.6,
+          "expected_level": "pre_epidemie",
+          "historical_max": 1562.0,
+          "historical_min": 18.0,
+          "variability": 391.2
+        },
+        "52": {
+          "expected_incidence": 240.6,
+          "expected_level": "vigilance",
+          "historical_max": 1035.0,
+          "historical_min": 17.0,
+          "variability": 245.2
+        },
+        "53": {
+          "expected_incidence": 92.9,
+          "expected_level": "normal",
+          "historical_max": 185.0,
+          "historical_min": 22.0,
+          "variability": 59.0
+        }
+      },
+      "critical_weeks": [],
+      "vigilance_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        50,
+        51
+      ]
+    },
+    "crisis_response": {
+      "metrics": {
+        "baseline_daily": 27.0,
+        "alert_threshold_p75": 58.0,
+        "crisis_threshold_p95": 138.0,
+        "max_observed": 404,
+        "rapid_growth_days_pct": 22.0
+      },
+      "staffing_recommendations": {
+        "normal": {
+          "description": "Activité normale",
+          "staffing_factor": 1.0,
+          "beds_reserve_pct": 15,
+          "actions": [
+            "Monitoring standard",
+            "Formation continue"
+          ]
+        },
+        "vigilance": {
+          "description": "Tendance haussière détectée",
+          "staffing_factor": 1.1,
+          "beds_reserve_pct": 20,
+          "actions": [
+            "Rappel pool remplaçants",
+            "Vérification stocks",
+            "Briefing équipes"
+          ]
+        },
+        "pre_crise": {
+          "description": "Croissance rapide confirmée",
+          "staffing_factor": 1.25,
+          "beds_reserve_pct": 25,
+          "actions": [
+            "Activation plan blanc préparatoire",
+            "Déprogrammation non-urgente",
+            "Ouverture lits supplémentaires"
+          ]
+        },
+        "crise": {
+          "description": "Pic épidémique en cours",
+          "staffing_factor": 1.5,
+          "beds_reserve_pct": 5,
+          "actions": [
+            "Plan blanc activé",
+            "Transferts inter-établissements",
+            "Réquisition personnel",
+            "Cellule de crise 24/7"
+          ]
+        },
+        "post_crise": {
+          "description": "Décrue amorcée",
+          "staffing_factor": 1.2,
+          "beds_reserve_pct": 15,
+          "actions": [
+            "Maintien vigilance",
+            "Rotation repos équipes",
+            "Debriefing",
+            "Préparation rebond"
+          ]
+        }
+      }
+    },
+    "early_warning_rules": {
+      "epidemic_detection": {
+        "name": "Détection début épidémie",
+        "conditions": [
+          {
+            "metric": "admissions_growth_7d",
+            "operator": ">",
+            "value": 15,
+            "unit": "%",
+            "description": "Croissance admissions > 15% sur 7 jours"
+          },
+          {
+            "metric": "week_vs_historical_mean",
+            "operator": ">",
+            "value": 1.3,
+            "unit": "ratio",
+            "description": "Admissions > 130% de la moyenne historique pour cette semaine"
+          }
+        ],
+        "actions": [
+          "Activer surveillance renforcée",
+          "Alerter direction",
+          "Vérifier stocks EPI"
+        ],
+        "lead_time_days": 14
+      },
+      "rapid_escalation": {
+        "name": "Escalade rapide",
+        "conditions": [
+          {
+            "metric": "admissions_growth_3d",
+            "operator": ">",
+            "value": 25,
+            "unit": "%",
+            "description": "Croissance > 25% sur 3 jours"
+          },
+          {
+            "metric": "occupancy_rate",
+            "operator": ">",
+            "value": 85,
+            "unit": "%",
+            "description": "Taux d'occupation > 85%"
+          }
+        ],
+        "actions": [
+          "Activer plan de montée en charge",
+          "Rappel personnel",
+          "Déprogrammer chirurgies électives"
+        ],
+        "lead_time_days": 5
+      },
+      "capacity_saturation": {
+        "name": "Saturation imminente",
+        "conditions": [
+          {
+            "metric": "occupancy_rate",
+            "operator": ">",
+            "value": 95,
+            "unit": "%",
+            "description": "Taux d'occupation > 95%"
+          },
+          {
+            "metric": "beds_available",
+            "operator": "<",
+            "value": 20,
+            "unit": "lits",
+            "description": "Moins de 20 lits disponibles"
+          }
+        ],
+        "actions": [
+          "Activer plan blanc",
+          "Organiser transferts",
+          "Cellule de crise",
+          "Communication ARS"
+        ],
+        "lead_time_days": 1
+      },
+      "seasonal_preparation": {
+        "name": "Préparation saisonnière",
+        "conditions": [
+          {
+            "metric": "calendar_week",
+            "operator": "in",
+            "value": [
+              44,
+              45,
+              46,
+              47
+            ],
+            "unit": "semaine",
+            "description": "Entrée dans la période pré-épidémique"
+          }
+        ],
+        "actions": [
+          "Finaliser vaccination personnel",
+          "Stocker antiviraux",
+          "Former équipes protocoles grippe",
+          "Briefing saisonnier"
+        ],
+        "lead_time_days": 30
+      },
+      "heatwave_alert": {
+        "name": "Alerte canicule",
+        "conditions": [
+          {
+            "metric": "temperature_forecast",
+            "operator": ">",
+            "value": 35,
+            "unit": "°C",
+            "description": "Prévision température > 35°C"
+          },
+          {
+            "metric": "consecutive_hot_days",
+            "operator": ">=",
+            "value": 3,
+            "unit": "jours",
+            "description": "3+ jours consécutifs de forte chaleur"
+          }
+        ],
+        "actions": [
+          "Activer plan canicule",
+          "Renforcer cardio/neuro",
+          "Climatisation urgences",
+          "Communication patients fragiles"
+        ],
+        "lead_time_days": 3
+      }
+    },
+    "staffing_calendar": {
+      "1": {
+        "activity_ratio": 2.19,
+        "staffing_factor": 1.25,
+        "level": "epidemie",
+        "color": "orange",
+        "recommended_actions": [
+          "Activation renforts",
+          "Déprogrammation possible",
+          "Stock EPI +50%",
+          "Réunion quotidienne pilotage"
+        ]
+      },
+      "2": {
+        "activity_ratio": 2.14,
+        "staffing_factor": 1.25,
+        "level": "epidemie",
+        "color": "orange",
+        "recommended_actions": [
+          "Activation renforts",
+          "Déprogrammation possible",
+          "Stock EPI +50%",
+          "Réunion quotidienne pilotage"
+        ]
+      },
+      "3": {
+        "activity_ratio": 2.5,
+        "staffing_factor": 1.25,
+        "level": "epidemie",
+        "color": "orange",
+        "recommended_actions": [
+          "Activation renforts",
+          "Déprogrammation possible",
+          "Stock EPI +50%",
+          "Réunion quotidienne pilotage"
+        ]
+      },
+      "4": {
+        "activity_ratio": 3.12,
+        "staffing_factor": 1.4,
+        "level": "crise",
+        "color": "red",
+        "recommended_actions": [
+          "Mobilisation maximale",
+          "Plan blanc potentiel",
+          "Cellule de crise active",
+          "Communication ARS quotidienne"
+        ]
+      },
+      "5": {
+        "activity_ratio": 3.62,
+        "staffing_factor": 1.4,
+        "level": "crise",
+        "color": "red",
+        "recommended_actions": [
+          "Mobilisation maximale",
+          "Plan blanc potentiel",
+          "Cellule de crise active",
+          "Communication ARS quotidienne"
+        ]
+      },
+      "6": {
+        "activity_ratio": 3.71,
+        "staffing_factor": 1.4,
+        "level": "crise",
+        "color": "red",
+        "recommended_actions": [
+          "Mobilisation maximale",
+          "Plan blanc potentiel",
+          "Cellule de crise active",
+          "Communication ARS quotidienne"
+        ]
+      },
+      "7": {
+        "activity_ratio": 3.2,
+        "staffing_factor": 1.4,
+        "level": "crise",
+        "color": "red",
+        "recommended_actions": [
+          "Mobilisation maximale",
+          "Plan blanc potentiel",
+          "Cellule de crise active",
+          "Communication ARS quotidienne"
+        ]
+      },
+      "8": {
+        "activity_ratio": 2.53,
+        "staffing_factor": 1.25,
+        "level": "epidemie",
+        "color": "orange",
+        "recommended_actions": [
+          "Activation renforts",
+          "Déprogrammation possible",
+          "Stock EPI +50%",
+          "Réunion quotidienne pilotage"
+        ]
+      },
+      "9": {
+        "activity_ratio": 1.9,
+        "staffing_factor": 1.15,
+        "level": "vigilance",
+        "color": "yellow",
+        "recommended_actions": [
+          "Surveillance renforcée indicateurs",
+          "Vérification disponibilité pool",
+          "Briefing hebdomadaire équipes"
+        ]
+      },
+      "10": {
+        "activity_ratio": 1.56,
+        "staffing_factor": 1.15,
+        "level": "vigilance",
+        "color": "yellow",
+        "recommended_actions": [
+          "Surveillance renforcée indicateurs",
+          "Vérification disponibilité pool",
+          "Briefing hebdomadaire équipes"
+        ]
+      },
+      "11": {
+        "activity_ratio": 1.33,
+        "staffing_factor": 1.0,
+        "level": "normal",
+        "color": "blue",
+        "recommended_actions": [
+          "Activité standard",
+          "Monitoring régulier",
+          "Maintien des stocks"
+        ]
+      },
+      "12": {
+        "activity_ratio": 1.18,
+        "staffing_factor": 1.0,
+        "level": "normal",
+        "color": "blue",
+        "recommended_actions": [
+          "Activité standard",
+          "Monitoring régulier",
+          "Maintien des stocks"
+        ]
+      },
+      "13": {
+        "activity_ratio": 1.02,
+        "staffing_factor": 1.0,
+        "level": "normal",
+        "color": "blue",
+        "recommended_actions": [
+          "Activité standard",
+          "Monitoring régulier",
+          "Maintien des stocks"
+        ]
+      },
+      "14": {
+        "activity_ratio": 0.83,
+        "staffing_factor": 1.0,
+        "level": "normal",
+        "color": "blue",
+        "recommended_actions": [
+          "Activité standard",
+          "Monitoring régulier",
+          "Maintien des stocks"
+        ]
+      },
+      "15": {
+        "activity_ratio": 0.55,
+        "staffing_factor": 1.0,
+        "level": "normal",
+        "color": "blue",
+        "recommended_actions": [
+          "Activité standard",
+          "Monitoring régulier",
+          "Maintien des stocks"
+        ]
+      },
+      "16": {
+        "activity_ratio": 0.39,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "17": {
+        "activity_ratio": 0.27,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "18": {
+        "activity_ratio": 0.19,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "19": {
+        "activity_ratio": 0.16,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "20": {
+        "activity_ratio": 0.14,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "21": {
+        "activity_ratio": 0.12,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "22": {
+        "activity_ratio": 0.12,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "23": {
+        "activity_ratio": 0.14,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "24": {
+        "activity_ratio": 0.13,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "25": {
+        "activity_ratio": 0.13,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "26": {
+        "activity_ratio": 0.12,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "27": {
+        "activity_ratio": 0.11,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "28": {
+        "activity_ratio": 0.1,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "29": {
+        "activity_ratio": 0.09,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "30": {
+        "activity_ratio": 0.08,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "31": {
+        "activity_ratio": 0.11,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "32": {
+        "activity_ratio": 0.08,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "33": {
+        "activity_ratio": 0.09,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "34": {
+        "activity_ratio": 0.11,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "35": {
+        "activity_ratio": 0.11,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "36": {
+        "activity_ratio": 0.14,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "37": {
+        "activity_ratio": 0.22,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "38": {
+        "activity_ratio": 0.33,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "39": {
+        "activity_ratio": 0.41,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "40": {
+        "activity_ratio": 0.43,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "41": {
+        "activity_ratio": 0.45,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "42": {
+        "activity_ratio": 0.46,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "43": {
+        "activity_ratio": 0.45,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "44": {
+        "activity_ratio": 0.44,
+        "staffing_factor": 0.9,
+        "level": "calme",
+        "color": "green",
+        "recommended_actions": [
+          "Période propice aux formations",
+          "Rattrapage congés",
+          "Maintenance équipements",
+          "Préparation prochaine saison"
+        ]
+      },
+      "45": {
+        "activity_ratio": 0.53,
+        "staffing_factor": 1.0,
+        "level": "normal",
+        "color": "blue",
+        "recommended_actions": [
+          "Activité standard",
+          "Monitoring régulier",
+          "Maintien des stocks"
+        ]
+      },
+      "46": {
+        "activity_ratio": 0.63,
+        "staffing_factor": 1.0,
+        "level": "normal",
+        "color": "blue",
+        "recommended_actions": [
+          "Activité standard",
+          "Monitoring régulier",
+          "Maintien des stocks"
+        ]
+      },
+      "47": {
+        "activity_ratio": 1.04,
+        "staffing_factor": 1.0,
+        "level": "normal",
+        "color": "blue",
+        "recommended_actions": [
+          "Activité standard",
+          "Monitoring régulier",
+          "Maintien des stocks"
+        ]
+      },
+      "48": {
+        "activity_ratio": 1.65,
+        "staffing_factor": 1.15,
+        "level": "vigilance",
+        "color": "yellow",
+        "recommended_actions": [
+          "Surveillance renforcée indicateurs",
+          "Vérification disponibilité pool",
+          "Briefing hebdomadaire équipes"
+        ]
+      },
+      "49": {
+        "activity_ratio": 2.39,
+        "staffing_factor": 1.25,
+        "level": "epidemie",
+        "color": "orange",
+        "recommended_actions": [
+          "Activation renforts",
+          "Déprogrammation possible",
+          "Stock EPI +50%",
+          "Réunion quotidienne pilotage"
+        ]
+      },
+      "50": {
+        "activity_ratio": 2.85,
+        "staffing_factor": 1.25,
+        "level": "epidemie",
+        "color": "orange",
+        "recommended_actions": [
+          "Activation renforts",
+          "Déprogrammation possible",
+          "Stock EPI +50%",
+          "Réunion quotidienne pilotage"
+        ]
+      },
+      "51": {
+        "activity_ratio": 3.08,
+        "staffing_factor": 1.4,
+        "level": "crise",
+        "color": "red",
+        "recommended_actions": [
+          "Mobilisation maximale",
+          "Plan blanc potentiel",
+          "Cellule de crise active",
+          "Communication ARS quotidienne"
+        ]
+      },
+      "52": {
+        "activity_ratio": 2.4,
+        "staffing_factor": 1.25,
+        "level": "epidemie",
+        "color": "orange",
+        "recommended_actions": [
+          "Activation renforts",
+          "Déprogrammation possible",
+          "Stock EPI +50%",
+          "Réunion quotidienne pilotage"
+        ]
+      }
+    }
+  }
+}

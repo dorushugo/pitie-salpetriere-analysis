@@ -1,0 +1,67 @@
+{
+  "model_type": "RandomForest",
+  "n_features": 30,
+  "feature_names": [
+    "jour_semaine",
+    "jour_mois",
+    "mois",
+    "trimestre",
+    "semaine_annee",
+    "sin_jour_semaine",
+    "cos_jour_semaine",
+    "sin_mois",
+    "cos_mois",
+    "sin_jour_mois",
+    "cos_jour_mois",
+    "est_weekend",
+    "est_lundi",
+    "est_hiver",
+    "est_printemps",
+    "est_ete",
+    "est_automne",
+    "admissions_lag_1",
+    "admissions_lag_2",
+    "admissions_lag_3",
+    "admissions_lag_7",
+    "admissions_lag_14",
+    "admissions_lag_30",
+    "admissions_ma_7",
+    "admissions_ma_14",
+    "admissions_ma_30",
+    "admissions_std_7",
+    "admissions_std_14",
+    "admissions_std_30",
+    "tendance_7j"
+  ],
+  "metrics": {
+    "train": {
+      "mae": 6.170050614405531,
+      "rmse": 11.444050113887858,
+      "r2": 0.9746302619599029
+    },
+    "test": {
+      "mae": 26.4234492063492,
+      "rmse": 34.195816731171575,
+      "mape": 5.8253163472642,
+      "r2": 0.8098898714267029
+    }
+  },
+  "feature_importance": {
+    "admissions_ma_7": 0.5708,
+    "tendance_7j": 0.2203,
+    "admissions_lag_7": 0.1069,
+    "admissions_std_7": 0.0221,
+    "admissions_lag_2": 0.0077,
+    "admissions_lag_30": 0.0068,
+    "admissions_std_30": 0.0066,
+    "admissions_lag_3": 0.0065,
+    "admissions_std_14": 0.0064,
+    "admissions_ma_14": 0.0059,
+    "jour_semaine": 0.0059,
+    "admissions_lag_1": 0.0052,
+    "admissions_lag_14": 0.005,
+    "sin_jour_mois": 0.0038,
+    "jour_mois": 0.0034
+  },
+  "trained_at": "2026-02-02T11:13:33.084575"
+}

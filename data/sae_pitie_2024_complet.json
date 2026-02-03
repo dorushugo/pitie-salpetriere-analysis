@@ -1,0 +1,207 @@
+{
+  "source": "DREES - SAE 2024 (Statistique Annuelle des Établissements)",
+  "date_extraction": "2026-02-02",
+  "finess_etablissement": "750100125",
+  "finess_entite_juridique": "750712184",
+  "identification": {
+    "raison_sociale": "GHU APHP SUN SITE PITIE SALPETRIERE",
+    "groupe": "GHU APHP SORBONNE UNIVERSITE",
+    "categorie": "CHU",
+    "adresse": "47 BD DE L HOPITAL, 75651 PARIS CEDEX 13"
+  },
+  "capacites": {
+    "mco": {
+      "lits": {
+        "medecine": 732,
+        "chirurgie": 390,
+        "obstetrique": 46,
+        "total_hospitalisation_complete": 1168
+      },
+      "places_ambulatoire": {
+        "medecine": 231,
+        "chirurgie": 54,
+        "total": 292
+      },
+      "sejours_annuels": {
+        "medecine_hc": 38495,
+        "chirurgie_hc": 17406,
+        "obstetrique_hc": 3792,
+        "medecine_ambulatoire": 29715,
+        "chirurgie_ambulatoire": 15324
+      },
+      "journees_annuelles": {
+        "medecine": 248479,
+        "chirurgie": 96043,
+        "obstetrique": 15077
+      },
+      "taux_occupation_calcule": 84.3
+    },
+    "reanimation_soins_critiques": {
+      "AUTSIADU": {
+        "lits": 8,
+        "journees": 7723,
+        "sejours": 2072
+      },
+      "REAADU": {
+        "lits": 104,
+        "journees": 36060,
+        "sejours": 4918
+      },
+      "SIADU": {
+        "lits": 120,
+        "journees": 36553,
+        "sejours": 8532
+      },
+      "SITOT": {
+        "lits": 120,
+        "journees": 36553,
+        "sejours": 8532
+      },
+      "USICADU": {
+        "lits": 31,
+        "journees": 11821,
+        "sejours": 4162
+      },
+      "USIHADU": {
+        "lits": 38,
+        "journees": 10313,
+        "sejours": 593
+      },
+      "USINVADU": {
+        "lits": 16,
+        "journees": 4645,
+        "sejours": 916
+      },
+      "USIPADU": {
+        "lits": 27,
+        "journees": 2051,
+        "sejours": 789
+      },
+      "TOTAL": {
+        "lits": 464,
+        "note": "Somme réanimation + SI + USC"
+      }
+    },
+    "ssr": {
+      "lits_hospitalisation_complete": 75,
+      "places_hospitalisation_partielle": 27,
+      "journees_annuelles": 27379,
+      "sejours_annuels": 646
+    },
+    "psychiatrie": {
+      "lits_temps_complet": 0,
+      "places_temps_partiel": 0,
+      "journees_annuelles": 0,
+      "files_actives": 0,
+      "actes_ambulatoires": 0
+    }
+  },
+  "activite": {
+    "urgences": {
+      "passages_total": 0,
+      "passages_adultes": 0,
+      "passages_pediatriques": 0,
+      "hospitalisations": 0,
+      "hospitalisations_uhcd": 0,
+      "duree_moyenne_passage_min": 0.0
+    },
+    "perinatalite": {
+      "type_maternite": "TYPE2",
+      "lits_obstetrique": 33,
+      "lits_neonatologie": 12,
+      "lits_soins_intensifs_neo": 0,
+      "lits_reanimation_neo": 0,
+      "sejours_accouchement": 2084,
+      "accouchements_uniques": 2051,
+      "accouchements_multiples": 33
+    },
+    "dialyse": {
+      "type_autorisation": "112BA",
+      "postes_hemodialyse": 0,
+      "seances_hemodialyse": 0,
+      "patients_dialyse_peritoneale": 0
+    },
+    "cancerologie": {
+      "chimiotherapie_seances": 0,
+      "chimiotherapie_sejours": 0,
+      "radiotherapie_seances": 0,
+      "curietherapie_seances": 0
+    },
+    "neurochirurgie": {
+      "sejours": 0,
+      "interventions": 0
+    },
+    "chirurgie_cardiaque": {
+      "sejours": 4237,
+      "interventions_cec": 1604,
+      "interventions_sans_cec": 0
+    },
+    "smur_samu": {
+      "sorties_smur_primaires": 0,
+      "sorties_smur_secondaires": 0,
+      "affaires_regulees_samu": 0
+    }
+  },
+  "equipements": {
+    "blocs_operatoires": {
+      "sites": 7,
+      "salles_chirurgie": 32,
+      "salles_chirurgie_24h": 5,
+      "salles_obstetrique": 3,
+      "salles_interventionnelles": 6,
+      "salles_hybrides": 2,
+      "salles_endoscopie": 1,
+      "total_salles": 44,
+      "postes_surveillance": 8,
+      "postes_sspi": 80
+    },
+    "imagerie": {
+      "CAM": {
+        "nombre": 2,
+        "actes_annuels": 9751
+      },
+      "IRM": {
+        "nombre": 7,
+        "actes_annuels": 31908
+      },
+      "RADIO": {
+        "nombre": 8,
+        "actes_annuels": 75260
+      },
+      "SCAN": {
+        "nombre": 6,
+        "actes_annuels": 60864
+      },
+      "TOMO": {
+        "nombre": 3,
+        "actes_annuels": 10582
+      },
+      "VASC": {
+        "nombre": 7,
+        "actes_annuels": 14142
+      },
+      "dtIRM2": {
+        "nombre": 4,
+        "actes_annuels": 16253
+      }
+    }
+  },
+  "personnel": {
+    "personnel_non_medical_etp": {
+      "soignant": 0.0,
+      "educatif_social": 0.0,
+      "medico_technique": 0.0,
+      "technique_ouvrier": 0.0,
+      "administratif": 0.0,
+      "total": 0.0
+    }
+  },
+  "resume": {
+    "total_lits_mco": 1168,
+    "total_lits_ssr": 75,
+    "total_lits_psy": 0,
+    "total_lits_soins_critiques": 464,
+    "total_places_ambulatoire": 292,
+    "taux_occupation_mco": 84.3
+  }
+}

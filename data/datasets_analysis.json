@@ -1,0 +1,191 @@
+{
+  "generated_at": "2026-02-02T11:51:24.208533",
+  "datasets": {
+    "lits_soins_critiques": {
+      "source": "DREES - SAE",
+      "derniere_annee": 2024,
+      "total_lits_critiques_public": 13812,
+      "total_lits_critiques_prive": 0,
+      "total_france": 13812,
+      "detail": {
+        "USIC_1_Public": 1811,
+        "SURVADU_1_Public": 2530,
+        "SURVENF_1_Public": 643,
+        "REAENF_2_Prive_BL": 0,
+        "AUTSI_2_Prive_BL": 385,
+        "SURVADU_2_Prive_BL": 2632,
+        "SURVENF_2_Prive_BL": 22,
+        "REAADU_3_Prive_BNL": 303,
+        "USIC_3_Prive_BNL": 200,
+        "SIUNV_3_Prive_BNL": 36,
+        "AUTSI_3_Prive_BNL": 305,
+        "SURVENF_3_Prive_BNL": 57,
+        "REAADU_1_Public": 4396,
+        "AUTSI_1_Public": 3164,
+        "USIC_2_Prive_BL": 720,
+        "REAENF_3_Prive_BNL": 23,
+        "SURVADU_3_Prive_BNL": 643,
+        "REAENF_1_Public": 351,
+        "SIUNV_1_Public": 917,
+        "REAADU_2_Prive_BL": 579,
+        "SIUNV_2_Prive_BL": 28
+      }
+    },
+    "evolution_lits_france": {
+      "source": "DREES",
+      "periode": "2013-2024",
+      "evolution_lits_complets_pct": -11.0,
+      "evolution_places_partiels_pct": 34.6,
+      "lits_2024": 367335,
+      "places_2024": 91232,
+      "tendance_annuelle_lits": -4132.0,
+      "serie_complete": [
+        {
+          "annee": 2013,
+          "lits_complets": 412788,
+          "places_partiels": 67783
+        },
+        {
+          "annee": 2014,
+          "lits_complets": 410649,
+          "places_partiels": 69688
+        },
+        {
+          "annee": 2015,
+          "lits_complets": 407875,
+          "places_partiels": 71716
+        },
+        {
+          "annee": 2016,
+          "lits_complets": 403906,
+          "places_partiels": 73607
+        },
+        {
+          "annee": 2017,
+          "lits_complets": 399255,
+          "places_partiels": 74891
+        },
+        {
+          "annee": 2018,
+          "lits_complets": 395316,
+          "places_partiels": 76650
+        },
+        {
+          "annee": 2019,
+          "lits_complets": 390703,
+          "places_partiels": 78585
+        },
+        {
+          "annee": 2020,
+          "lits_complets": 385973,
+          "places_partiels": 79747
+        },
+        {
+          "annee": 2021,
+          "lits_complets": 380607,
+          "places_partiels": 82413
+        },
+        {
+          "annee": 2022,
+          "lits_complets": 373828,
+          "places_partiels": 85031
+        },
+        {
+          "annee": 2023,
+          "lits_complets": 369363,
+          "places_partiels": 88471
+        },
+        {
+          "annee": 2024,
+          "lits_complets": 367335,
+          "places_partiels": 91232
+        }
+      ]
+    },
+    "covid_hospitalisations": {
+      "source": "Santé Publique France",
+      "periode": "2020-03-19 à 2023-03-31",
+      "nb_jours": 1108,
+      "paris_75": {
+        "total_hospitalisations": 48776,
+        "total_reanimations": 11045,
+        "total_deces": 6509,
+        "moyenne_hosp_jour": 44.0,
+        "max_hosp_jour": 404,
+        "date_pic": "2020-03-31"
+      },
+      "france": {
+        "total_hospitalisations": 1052616,
+        "moyenne_hosp_jour": 950.0,
+        "max_hosp_jour": 4281,
+        "date_pic": "2020-04-01"
+      }
+    },
+    "urgences_covid_sursaud": {
+      "source": "Santé Publique France - SurSaud",
+      "colonnes": [
+        "dep",
+        "sexe",
+        "jour",
+        "hosp",
+        "rea",
+        "HospConv",
+        "SSR_USLD",
+        "autres",
+        "rad",
+        "dc"
+      ],
+      "nb_lignes": 338245
+    }
+  },
+  "pitie_salpetriere": {
+    "nom": "Hôpital Universitaire Pitié-Salpêtrière",
+    "groupe": "AP-HP",
+    "departement": "75 - Paris",
+    "caracteristiques": {
+      "type": "CHU - Centre Hospitalier Universitaire",
+      "lits_estimes": 1800,
+      "places_ambulatoire": 200,
+      "services_urgences": true,
+      "soins_critiques": true,
+      "maternite": true
+    },
+    "activite_estimee": {
+      "passages_urgences_jour": 250,
+      "admissions_jour": 150,
+      "consultations_externes_jour": 3000,
+      "interventions_chirurgicales_jour": 80
+    },
+    "personnel_estime": {
+      "medecins": 1500,
+      "infirmiers": 3000,
+      "aides_soignants": 2000,
+      "administratifs": 1500,
+      "total": 8000
+    },
+    "source": "Estimations basées sur données AP-HP et moyennes CHU"
+  },
+  "summary": {
+    "nb_datasets": 4,
+    "sources": [
+      "DREES",
+      "Santé Publique France",
+      "Réseau Sentinelles",
+      "SurSaud"
+    ],
+    "couverture_temporelle": "2013-2024",
+    "granularite": [
+      "France",
+      "Département",
+      "Jour",
+      "Semaine"
+    ],
+    "indicateurs_cles": [
+      "Lits hospitaliers (évolution)",
+      "Lits soins critiques",
+      "Hospitalisations COVID",
+      "Passages urgences",
+      "Incidence grippe"
+    ]
+  }
+}
