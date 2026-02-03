@@ -35,8 +35,6 @@ dist/
 build/
 
 # Large data files (exceed GitHub 100MB limit)
-data/admissions_complet.csv
-data/admissions.csv
 
 # Logs
 *.log
