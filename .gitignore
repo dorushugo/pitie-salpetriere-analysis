@@ -34,7 +34,7 @@ out/
 dist/
 build/
 
-# Large data files (exceed GitHub 100MB limit)
+# Large data files are tracked via Git LFS
 
 # Logs
 *.log
