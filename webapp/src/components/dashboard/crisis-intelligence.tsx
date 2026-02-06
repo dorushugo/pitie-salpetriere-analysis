@@ -137,14 +137,20 @@ export function CrisisIntelligence() {
   const { current_context, components } = data;
   const currentLevel = current_context.staffing.level;
 
-  // Générer le calendrier des 12 prochaines semaines
+  // Générer le calendrier des 12 prochaines semaines avec dates
   const weekCalendar = [];
+  const now = new Date();
   for (let i = 0; i < 12; i++) {
     const week = ((current_context.week + i - 1) % 52) + 1;
     const weekData = components.staffing_calendar[String(week)];
+    // Calculer la date de début de cette semaine
+    const weekDate = new Date(now);
+    weekDate.setDate(weekDate.getDate() + (i * 7));
+    const dateLabel = weekDate.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' });
     weekCalendar.push({
       week,
       offset: i,
+      dateLabel,
       ...weekData,
     });
   }
@@ -237,10 +243,10 @@ export function CrisisIntelligence() {
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <Calendar className="h-5 w-5" />
-                Calendrier Prévisionnel de Staffing
+                Prévisions des 12 prochaines semaines
               </CardTitle>
               <CardDescription>
-                Prévisions sur 12 semaines basées sur 42 ans d&apos;historique grippal
+                Coefficient de staffing basé sur 42 ans d&apos;historique grippal (la 1ère case = cette semaine)
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -252,7 +258,7 @@ export function CrisisIntelligence() {
                       week.offset === 0 ? 'ring-2 ring-blue-500' : ''
                     } ${levelColors[week.level] || levelColors.normal}`}
                   >
-                    <p className="text-xs font-medium">S{week.week}</p>
+                    <p className="text-[10px] text-muted-foreground">{week.dateLabel}</p>
                     <p className="text-lg font-bold">x{week.staffing_factor.toFixed(1)}</p>
                     <p className="text-xs opacity-75">
                       {(week.activity_ratio * 100).toFixed(0)}%

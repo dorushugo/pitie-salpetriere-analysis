@@ -1,0 +1,61 @@
+{
+  "models": [
+    "gradient_boosting",
+    "random_forest",
+    "prophet"
+  ],
+  "primary_model": "gradient_boosting",
+  "backup_model": "random_forest",
+  "feature_columns": [
+    "day_of_week",
+    "day_of_month",
+    "month",
+    "quarter",
+    "week_of_year",
+    "sin_day_week",
+    "cos_day_week",
+    "sin_month",
+    "cos_month",
+    "is_weekend",
+    "is_monday",
+    "is_winter",
+    "is_spring",
+    "is_summer",
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "lag_7",
+    "lag_14",
+    "lag_21",
+    "lag_28",
+    "lag_30",
+    "ma_7",
+    "ma_14",
+    "ma_30",
+    "std_7",
+    "std_14",
+    "std_30",
+    "trend_7d",
+    "trend_30d"
+  ],
+  "metrics": {
+    "gradient_boosting": {
+      "mae": 5.1507852999488515,
+      "rmse": 9.261075164818022,
+      "mape": 1.0364627045063757,
+      "r2": 0.991490615794044
+    },
+    "random_forest": {
+      "mae": 20.202279617386704,
+      "rmse": 26.230274722861893,
+      "mape": 4.30635004472951,
+      "r2": 0.9317376880441209
+    }
+  },
+  "ensemble_weights": {
+    "gradient_boosting": 0.7,
+    "random_forest": 0.3
+  },
+  "trained_at": "2026-02-04T14:12:38.207982",
+  "note": "ARIMA exclus car performances insuffisantes (R\u00b2 < 0)"
+}

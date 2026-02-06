@@ -121,6 +121,9 @@ export function generateSmartRecommendations(state: HospitalState): SmartRecomma
   // 5. Analyse financière
   recommendations.push(...analyzeFinancial(state, now));
   
+  // 6. Recommandations proactives (toujours utiles)
+  recommendations.push(...generateProactiveRecommendations(state, now));
+  
   // Trier par priorité
   const priorityOrder: Record<RecommandationPriority, number> = {
     critique: 0,
@@ -443,6 +446,122 @@ function analyzeFinancial(state: HospitalState, now: string): SmartRecommandatio
       echeance: 'ce_mois',
       services_concernes: ['Urgences', 'Cardiologie', 'Neurologie', 'Maladies Infectieuses', 'Pédiatrie', 'Réanimation'],
       declencheur: `Taux heures supp ${state.tauxHeuresSupp}% > 15%`,
+      status: 'nouvelle',
+      date_creation: now,
+    });
+  }
+  
+  return recs;
+}
+
+function generateProactiveRecommendations(state: HospitalState, now: string): SmartRecommandation[] {
+  const recs: SmartRecommandation[] = [];
+  
+  // Optimisation du taux de rotation des lits
+  if (state.tauxOccupationGlobal > 65 && state.tauxOccupationGlobal < 85) {
+    recs.push({
+      id: `proact-rotation-${Date.now()}`,
+      categorie: 'organisation',
+      priorite: 'moyenne',
+      titre: 'Optimiser les sorties du matin',
+      description: `Occupation à ${state.tauxOccupationGlobal}%. Marge d'optimisation possible.`,
+      action_concrete: 'Anticiper les sorties avant 11h pour libérer les lits avant l\'afflux de l\'après-midi',
+      impact_estime: 'Réduction du temps d\'attente aux urgences de 15-20%',
+      quantification: {
+        nombre: Math.round(state.litsTotal * 0.05),
+        unite: 'lits libérables plus tôt',
+        economie_potentielle: 2500, // Réduction coûts attente urgences
+      },
+      echeance: 'cette_semaine',
+      services_concernes: ['Urgences'],
+      declencheur: 'Optimisation proactive des flux',
+      status: 'nouvelle',
+      date_creation: now,
+    });
+  }
+  
+  // Analyse prédictive - préparer la semaine
+  const jourActuel = new Date().getDay();
+  if (jourActuel >= 1 && jourActuel <= 3) { // Lundi à mercredi
+    recs.push({
+      id: `proact-weekend-${Date.now()}`,
+      categorie: 'rh',
+      priorite: 'basse',
+      titre: 'Anticiper le planning weekend',
+      description: 'Les weekends génèrent +15% de passages aux urgences.',
+      action_concrete: 'Confirmer les disponibilités du pool pour samedi/dimanche',
+      impact_estime: 'Éviter les rappels de dernière minute',
+      quantification: {
+        nombre: 8,
+        unite: 'soignants à confirmer',
+      },
+      echeance: 'cette_semaine',
+      services_concernes: ['Urgences'],
+      declencheur: 'Planification hebdomadaire',
+      status: 'nouvelle',
+      date_creation: now,
+    });
+  }
+  
+  // Recommandation de formation continue
+  if (state.tauxOccupationGlobal < 75) {
+    recs.push({
+      id: `proact-formation-${Date.now()}`,
+      categorie: 'rh',
+      priorite: 'basse',
+      titre: 'Période propice aux formations',
+      description: `Occupation modérée (${state.tauxOccupationGlobal}%). Profiter pour former les équipes.`,
+      action_concrete: 'Planifier des sessions de formation (gestes d\'urgence, nouveaux protocoles)',
+      impact_estime: 'Amélioration des compétences sans impact sur l\'activité',
+      quantification: {
+        nombre: 4,
+        unite: 'sessions possibles cette semaine',
+      },
+      echeance: 'cette_semaine',
+      services_concernes: ['Urgences', 'Réanimation'],
+      declencheur: 'Charge modérée',
+      status: 'nouvelle',
+      date_creation: now,
+    });
+  }
+  
+  // Vérification maintenance équipements
+  recs.push({
+    id: `proact-maint-${Date.now()}`,
+    categorie: 'logistique',
+    priorite: 'basse',
+    titre: 'Contrôle maintenance équipements',
+    description: 'Vérification préventive des équipements critiques.',
+    action_concrete: 'Vérifier l\'état des respirateurs, moniteurs et défibrillateurs',
+    impact_estime: 'Prévention des pannes en période critique',
+    quantification: {
+      nombre: 15,
+      unite: 'équipements à contrôler',
+    },
+    echeance: 'cette_semaine',
+    services_concernes: ['Réanimation', 'Urgences'],
+    declencheur: 'Maintenance préventive',
+    status: 'nouvelle',
+    date_creation: now,
+  });
+  
+  // Coordination avec partenaires
+  if (state.tauxOccupationGlobal > 70) {
+    recs.push({
+      id: `proact-coord-${Date.now()}`,
+      categorie: 'organisation',
+      priorite: 'basse',
+      titre: 'Maintenir le contact avec établissements partenaires',
+      description: 'En cas de tension, les transferts doivent être rapides.',
+      action_concrete: 'Vérifier les capacités disponibles auprès des cliniques et hôpitaux partenaires',
+      impact_estime: 'Réduction du délai de transfert de 2h en cas de besoin',
+      quantification: {
+        nombre: 5,
+        unite: 'établissements à contacter',
+      },
+      echeance: 'cette_semaine',
+      services_concernes: ['Urgences'],
+      declencheur: 'Coordination préventive',
       status: 'nouvelle',
       date_creation: now,
     });

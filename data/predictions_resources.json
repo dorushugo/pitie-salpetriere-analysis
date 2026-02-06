@@ -1,0 +1,4612 @@
+{
+  "generated_at": "2026-02-03T14:52:14.660830",
+  "horizon_jours": 30,
+  "daily": [
+    {
+      "date": "2026-01-01",
+      "admissions_prevues": 481,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 585,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 78.8,
+          "surplus_deficit": 157,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 312,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 81.1,
+          "surplus_deficit": 73,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 103,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 99.4,
+          "surplus_deficit": 1,
+          "alerte": true,
+          "critique": true
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 67,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 96.0,
+          "surplus_deficit": 3,
+          "alerte": true,
+          "critique": true
+        },
+        "urgences": {
+          "lits_necessaires": 57,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 110,
+          "surplus_deficit": -7,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 44,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 90.8,
+          "surplus_deficit": 4,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1169,
+          "capacite_totale": 1399,
+          "taux_global": 83.5
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 146,
+          "effectif_avec_marge": 167,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 35.0,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 47,
+            "chirurgie": 37,
+            "reanimation": 36,
+            "soins_intensifs": 17,
+            "urgences": 9
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 731,
+          "effectif_avec_marge": 840,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 26.3,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 263,
+            "chirurgie": 156,
+            "reanimation": 185,
+            "soins_intensifs": 80,
+            "urgences": 46
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 447,
+          "effectif_avec_marge": 514,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 34.2,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 205,
+            "chirurgie": 94,
+            "reanimation": 82,
+            "soins_intensifs": 40,
+            "urgences": 26
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 168,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 60.1,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 87,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 72.2,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 265,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 120,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 72,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.7,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 4
+    },
+    {
+      "date": "2026-01-02",
+      "admissions_prevues": 481,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 626,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 84.3,
+          "surplus_deficit": 116,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 319,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 82.8,
+          "surplus_deficit": 66,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 100,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 96.4,
+          "surplus_deficit": 4,
+          "alerte": true,
+          "critique": true
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 69,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 98.3,
+          "surplus_deficit": 1,
+          "alerte": true,
+          "critique": true
+        },
+        "urgences": {
+          "lits_necessaires": 53,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 106.7,
+          "surplus_deficit": -3,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 46,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 96.8,
+          "surplus_deficit": 2,
+          "alerte": true,
+          "critique": true
+        },
+        "total": {
+          "lits_necessaires": 1213,
+          "capacite_totale": 1399,
+          "taux_global": 86.7
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 149,
+          "effectif_avec_marge": 171,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 35.7,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 50,
+            "chirurgie": 38,
+            "reanimation": 35,
+            "soins_intensifs": 17,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 746,
+          "effectif_avec_marge": 858,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 26.8,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 282,
+            "chirurgie": 160,
+            "reanimation": 180,
+            "soins_intensifs": 83,
+            "urgences": 42
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 460,
+          "effectif_avec_marge": 529,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 35.3,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 219,
+            "chirurgie": 96,
+            "reanimation": 80,
+            "soins_intensifs": 41,
+            "urgences": 24
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 168,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 60.1,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 87,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 72.2,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 265,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 120,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 72,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.7,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 4
+    },
+    {
+      "date": "2026-01-03",
+      "admissions_prevues": 479,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 627,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 84.6,
+          "surplus_deficit": 115,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 307,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 79.7,
+          "surplus_deficit": 78,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 104,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 99.6,
+          "surplus_deficit": 0,
+          "alerte": true,
+          "critique": true
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 67,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 95.5,
+          "surplus_deficit": 3,
+          "alerte": true,
+          "critique": true
+        },
+        "urgences": {
+          "lits_necessaires": 52,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 104.9,
+          "surplus_deficit": -2,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 46,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 94.8,
+          "surplus_deficit": 2,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1203,
+          "capacite_totale": 1399,
+          "taux_global": 86.0
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 148,
+          "effectif_avec_marge": 170,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 35.5,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 50,
+            "chirurgie": 37,
+            "reanimation": 36,
+            "soins_intensifs": 17,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 745,
+          "effectif_avec_marge": 857,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 26.8,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 282,
+            "chirurgie": 154,
+            "reanimation": 187,
+            "soins_intensifs": 80,
+            "urgences": 42
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 458,
+          "effectif_avec_marge": 527,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 35.1,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 219,
+            "chirurgie": 92,
+            "reanimation": 83,
+            "soins_intensifs": 40,
+            "urgences": 23
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 168,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.9,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 86,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 71.9,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 263,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 120,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 72,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.6,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 4
+    },
+    {
+      "date": "2026-01-04",
+      "admissions_prevues": 479,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 600,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 80.9,
+          "surplus_deficit": 142,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 294,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 76.2,
+          "surplus_deficit": 91,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 99,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 95.2,
+          "surplus_deficit": 5,
+          "alerte": true,
+          "critique": true
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 67,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 95.5,
+          "surplus_deficit": 3,
+          "alerte": true,
+          "critique": true
+        },
+        "urgences": {
+          "lits_necessaires": 53,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 105.6,
+          "surplus_deficit": -3,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 42,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 88.0,
+          "surplus_deficit": 6,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1154,
+          "capacite_totale": 1399,
+          "taux_global": 82.5
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 143,
+          "effectif_avec_marge": 164,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 34.2,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 48,
+            "chirurgie": 35,
+            "reanimation": 35,
+            "soins_intensifs": 17,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 718,
+          "effectif_avec_marge": 826,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 25.8,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 270,
+            "chirurgie": 147,
+            "reanimation": 178,
+            "soins_intensifs": 80,
+            "urgences": 42
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 441,
+          "effectif_avec_marge": 508,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 33.8,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 210,
+            "chirurgie": 88,
+            "reanimation": 79,
+            "soins_intensifs": 40,
+            "urgences": 24
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 168,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.9,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 86,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 71.9,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 263,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 120,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 72,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.6,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 4
+    },
+    {
+      "date": "2026-01-05",
+      "admissions_prevues": 477,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 621,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 83.7,
+          "surplus_deficit": 121,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 294,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 76.3,
+          "surplus_deficit": 91,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 97,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 93.3,
+          "surplus_deficit": 7,
+          "alerte": true,
+          "critique": false
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 67,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 96.4,
+          "surplus_deficit": 3,
+          "alerte": true,
+          "critique": true
+        },
+        "urgences": {
+          "lits_necessaires": 53,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 106.5,
+          "surplus_deficit": -3,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 44,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 92.2,
+          "surplus_deficit": 4,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1176,
+          "capacite_totale": 1399,
+          "taux_global": 84.1
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 144,
+          "effectif_avec_marge": 165,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 34.5,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 50,
+            "chirurgie": 35,
+            "reanimation": 34,
+            "soins_intensifs": 17,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 724,
+          "effectif_avec_marge": 832,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 26.0,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 279,
+            "chirurgie": 147,
+            "reanimation": 175,
+            "soins_intensifs": 80,
+            "urgences": 42
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 447,
+          "effectif_avec_marge": 514,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 34.3,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 217,
+            "chirurgie": 88,
+            "reanimation": 78,
+            "soins_intensifs": 40,
+            "urgences": 24
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 167,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.6,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 86,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 71.5,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 262,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 119,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 72,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.5,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 3
+    },
+    {
+      "date": "2026-01-06",
+      "admissions_prevues": 477,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 611,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 82.4,
+          "surplus_deficit": 131,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 303,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 78.8,
+          "surplus_deficit": 82,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 98,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 94.2,
+          "surplus_deficit": 6,
+          "alerte": true,
+          "critique": false
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 66,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 94.8,
+          "surplus_deficit": 4,
+          "alerte": true,
+          "critique": false
+        },
+        "urgences": {
+          "lits_necessaires": 57,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 110,
+          "surplus_deficit": -7,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 45,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 94.7,
+          "surplus_deficit": 3,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1182,
+          "capacite_totale": 1399,
+          "taux_global": 84.5
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 145,
+          "effectif_avec_marge": 166,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 34.7,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 49,
+            "chirurgie": 36,
+            "reanimation": 34,
+            "soins_intensifs": 16,
+            "urgences": 9
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 728,
+          "effectif_avec_marge": 837,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 26.1,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 275,
+            "chirurgie": 152,
+            "reanimation": 176,
+            "soins_intensifs": 79,
+            "urgences": 46
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 448,
+          "effectif_avec_marge": 516,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 34.4,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 214,
+            "chirurgie": 91,
+            "reanimation": 78,
+            "soins_intensifs": 40,
+            "urgences": 26
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 167,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.6,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 86,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 71.5,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 262,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 119,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 72,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.5,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 3
+    },
+    {
+      "date": "2026-01-07",
+      "admissions_prevues": 476,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 591,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 79.6,
+          "surplus_deficit": 151,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 308,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 79.9,
+          "surplus_deficit": 77,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 101,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 96.8,
+          "surplus_deficit": 3,
+          "alerte": true,
+          "critique": true
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 64,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 92.0,
+          "surplus_deficit": 6,
+          "alerte": true,
+          "critique": false
+        },
+        "urgences": {
+          "lits_necessaires": 55,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 110,
+          "surplus_deficit": -5,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 44,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 91.4,
+          "surplus_deficit": 4,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1163,
+          "capacite_totale": 1399,
+          "taux_global": 83.1
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 144,
+          "effectif_avec_marge": 165,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 34.5,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 47,
+            "chirurgie": 37,
+            "reanimation": 35,
+            "soins_intensifs": 16,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 723,
+          "effectif_avec_marge": 831,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 26.0,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 266,
+            "chirurgie": 154,
+            "reanimation": 182,
+            "soins_intensifs": 77,
+            "urgences": 44
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 443,
+          "effectif_avec_marge": 510,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 34.0,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 207,
+            "chirurgie": 92,
+            "reanimation": 81,
+            "soins_intensifs": 38,
+            "urgences": 25
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 167,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.5,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 86,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 71.4,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 262,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 119,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 71,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.5,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 3
+    },
+    {
+      "date": "2026-01-08",
+      "admissions_prevues": 476,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 613,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 82.7,
+          "surplus_deficit": 129,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 315,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 81.8,
+          "surplus_deficit": 70,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 98,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 93.8,
+          "surplus_deficit": 6,
+          "alerte": true,
+          "critique": false
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 66,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 94.4,
+          "surplus_deficit": 4,
+          "alerte": true,
+          "critique": false
+        },
+        "urgences": {
+          "lits_necessaires": 55,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 110,
+          "surplus_deficit": -5,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 46,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 95.4,
+          "surplus_deficit": 2,
+          "alerte": true,
+          "critique": true
+        },
+        "total": {
+          "lits_necessaires": 1193,
+          "capacite_totale": 1399,
+          "taux_global": 85.3
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 146,
+          "effectif_avec_marge": 168,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 35.0,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 49,
+            "chirurgie": 38,
+            "reanimation": 34,
+            "soins_intensifs": 16,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 733,
+          "effectif_avec_marge": 843,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 26.3,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 276,
+            "chirurgie": 158,
+            "reanimation": 176,
+            "soins_intensifs": 79,
+            "urgences": 44
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 452,
+          "effectif_avec_marge": 520,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 34.6,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 215,
+            "chirurgie": 94,
+            "reanimation": 78,
+            "soins_intensifs": 40,
+            "urgences": 25
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 167,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.5,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 86,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 71.4,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 262,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 119,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 71,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.5,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 3
+    },
+    {
+      "date": "2026-01-09",
+      "admissions_prevues": 475,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 623,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 84.0,
+          "surplus_deficit": 119,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 290,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 75.4,
+          "surplus_deficit": 95,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 97,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 93.0,
+          "surplus_deficit": 7,
+          "alerte": true,
+          "critique": false
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 62,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 89.1,
+          "surplus_deficit": 8,
+          "alerte": true,
+          "critique": false
+        },
+        "urgences": {
+          "lits_necessaires": 55,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 110,
+          "surplus_deficit": -5,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 43,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 89.7,
+          "surplus_deficit": 5,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1171,
+          "capacite_totale": 1399,
+          "taux_global": 83.7
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 142,
+          "effectif_avec_marge": 164,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 34.2,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 50,
+            "chirurgie": 35,
+            "reanimation": 34,
+            "soins_intensifs": 16,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 718,
+          "effectif_avec_marge": 826,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 25.8,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 280,
+            "chirurgie": 145,
+            "reanimation": 175,
+            "soins_intensifs": 74,
+            "urgences": 44
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 445,
+          "effectif_avec_marge": 511,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 34.1,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 218,
+            "chirurgie": 87,
+            "reanimation": 78,
+            "soins_intensifs": 37,
+            "urgences": 25
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 166,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.4,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 86,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 71.2,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 261,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 119,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 71,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.4,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 3
+    },
+    {
+      "date": "2026-01-10",
+      "admissions_prevues": 474,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 591,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 79.6,
+          "surplus_deficit": 151,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 301,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 78.3,
+          "surplus_deficit": 84,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 97,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 92.9,
+          "surplus_deficit": 7,
+          "alerte": true,
+          "critique": false
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 62,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 89.2,
+          "surplus_deficit": 8,
+          "alerte": true,
+          "critique": false
+        },
+        "urgences": {
+          "lits_necessaires": 56,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 110,
+          "surplus_deficit": -6,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 44,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 91.4,
+          "surplus_deficit": 4,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1151,
+          "capacite_totale": 1399,
+          "taux_global": 82.2
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 141,
+          "effectif_avec_marge": 162,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 33.9,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 47,
+            "chirurgie": 36,
+            "reanimation": 34,
+            "soins_intensifs": 16,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 710,
+          "effectif_avec_marge": 817,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 25.5,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 266,
+            "chirurgie": 150,
+            "reanimation": 175,
+            "soins_intensifs": 74,
+            "urgences": 45
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 437,
+          "effectif_avec_marge": 503,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 33.5,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 207,
+            "chirurgie": 90,
+            "reanimation": 78,
+            "soins_intensifs": 37,
+            "urgences": 25
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 166,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.2,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 85,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 71.1,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 261,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 118,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 71,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.4,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 3
+    },
+    {
+      "date": "2026-01-11",
+      "admissions_prevues": 474,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 573,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 77.2,
+          "surplus_deficit": 169,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 287,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 74.5,
+          "surplus_deficit": 98,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 98,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 94.6,
+          "surplus_deficit": 6,
+          "alerte": true,
+          "critique": false
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 67,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 96.2,
+          "surplus_deficit": 3,
+          "alerte": true,
+          "critique": true
+        },
+        "urgences": {
+          "lits_necessaires": 53,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 107.0,
+          "surplus_deficit": -3,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 44,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 91.7,
+          "surplus_deficit": 4,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1123,
+          "capacite_totale": 1399,
+          "taux_global": 80.3
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 139,
+          "effectif_avec_marge": 160,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 33.4,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 46,
+            "chirurgie": 34,
+            "reanimation": 34,
+            "soins_intensifs": 17,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 701,
+          "effectif_avec_marge": 806,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 25.2,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 258,
+            "chirurgie": 144,
+            "reanimation": 176,
+            "soins_intensifs": 80,
+            "urgences": 42
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 429,
+          "effectif_avec_marge": 493,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 32.9,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 201,
+            "chirurgie": 86,
+            "reanimation": 78,
+            "soins_intensifs": 40,
+            "urgences": 24
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 166,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.2,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 85,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 71.1,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 261,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 118,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 71,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.4,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 3
+    },
+    {
+      "date": "2026-01-12",
+      "admissions_prevues": 474,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 613,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 82.6,
+          "surplus_deficit": 129,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 297,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 77.1,
+          "surplus_deficit": 88,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 97,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 93.6,
+          "surplus_deficit": 7,
+          "alerte": true,
+          "critique": false
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 65,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 92.4,
+          "surplus_deficit": 5,
+          "alerte": true,
+          "critique": false
+        },
+        "urgences": {
+          "lits_necessaires": 53,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 106.6,
+          "surplus_deficit": -3,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 44,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 90.7,
+          "surplus_deficit": 4,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1169,
+          "capacite_totale": 1399,
+          "taux_global": 83.5
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 143,
+          "effectif_avec_marge": 164,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 34.3,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 49,
+            "chirurgie": 36,
+            "reanimation": 34,
+            "soins_intensifs": 16,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 719,
+          "effectif_avec_marge": 827,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 25.9,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 276,
+            "chirurgie": 148,
+            "reanimation": 175,
+            "soins_intensifs": 78,
+            "urgences": 42
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 444,
+          "effectif_avec_marge": 511,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 34.0,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 215,
+            "chirurgie": 89,
+            "reanimation": 78,
+            "soins_intensifs": 39,
+            "urgences": 24
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 166,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.2,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 85,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 71.1,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 261,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 118,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 71,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.4,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 3
+    },
+    {
+      "date": "2026-01-13",
+      "admissions_prevues": 473,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 627,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 84.5,
+          "surplus_deficit": 115,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 296,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 76.9,
+          "surplus_deficit": 89,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 103,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 98.7,
+          "surplus_deficit": 1,
+          "alerte": true,
+          "critique": true
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 64,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 91.9,
+          "surplus_deficit": 6,
+          "alerte": true,
+          "critique": false
+        },
+        "urgences": {
+          "lits_necessaires": 54,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 108.8,
+          "surplus_deficit": -4,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 44,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 91.6,
+          "surplus_deficit": 4,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1188,
+          "capacite_totale": 1399,
+          "taux_global": 84.9
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 146,
+          "effectif_avec_marge": 168,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 35.0,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 50,
+            "chirurgie": 36,
+            "reanimation": 36,
+            "soins_intensifs": 16,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 736,
+          "effectif_avec_marge": 846,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 26.4,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 282,
+            "chirurgie": 148,
+            "reanimation": 185,
+            "soins_intensifs": 77,
+            "urgences": 43
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 453,
+          "effectif_avec_marge": 521,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 34.8,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 219,
+            "chirurgie": 89,
+            "reanimation": 82,
+            "soins_intensifs": 38,
+            "urgences": 24
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 166,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.1,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 85,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 71.0,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 260,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 118,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 71,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.3,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 3
+    },
+    {
+      "date": "2026-01-14",
+      "admissions_prevues": 473,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 604,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 81.4,
+          "surplus_deficit": 138,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 295,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 76.7,
+          "surplus_deficit": 90,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 100,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 96.3,
+          "surplus_deficit": 4,
+          "alerte": true,
+          "critique": true
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 64,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 92.1,
+          "surplus_deficit": 6,
+          "alerte": true,
+          "critique": false
+        },
+        "urgences": {
+          "lits_necessaires": 56,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 110,
+          "surplus_deficit": -6,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 44,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 91.5,
+          "surplus_deficit": 4,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1164,
+          "capacite_totale": 1399,
+          "taux_global": 83.2
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 143,
+          "effectif_avec_marge": 165,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 34.4,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 48,
+            "chirurgie": 35,
+            "reanimation": 35,
+            "soins_intensifs": 16,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 721,
+          "effectif_avec_marge": 829,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 25.9,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 272,
+            "chirurgie": 148,
+            "reanimation": 180,
+            "soins_intensifs": 77,
+            "urgences": 45
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 443,
+          "effectif_avec_marge": 510,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 34.0,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 211,
+            "chirurgie": 88,
+            "reanimation": 80,
+            "soins_intensifs": 38,
+            "urgences": 25
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 166,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.1,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 85,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 71.0,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 260,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 118,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 71,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.3,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 3
+    },
+    {
+      "date": "2026-01-15",
+      "admissions_prevues": 473,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 587,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 79.1,
+          "surplus_deficit": 155,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 294,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 76.4,
+          "surplus_deficit": 91,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 96,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 91.9,
+          "surplus_deficit": 8,
+          "alerte": true,
+          "critique": false
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 65,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 93.2,
+          "surplus_deficit": 5,
+          "alerte": true,
+          "critique": false
+        },
+        "urgences": {
+          "lits_necessaires": 54,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 107.2,
+          "surplus_deficit": -4,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 44,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 92.2,
+          "surplus_deficit": 4,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1139,
+          "capacite_totale": 1399,
+          "taux_global": 81.4
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 140,
+          "effectif_avec_marge": 161,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 33.7,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 47,
+            "chirurgie": 35,
+            "reanimation": 34,
+            "soins_intensifs": 16,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 705,
+          "effectif_avec_marge": 811,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 25.3,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 264,
+            "chirurgie": 147,
+            "reanimation": 173,
+            "soins_intensifs": 78,
+            "urgences": 43
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 434,
+          "effectif_avec_marge": 499,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 33.3,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 205,
+            "chirurgie": 88,
+            "reanimation": 77,
+            "soins_intensifs": 39,
+            "urgences": 24
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 166,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.1,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 85,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 71.0,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 260,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 118,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 71,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.3,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 3
+    },
+    {
+      "date": "2026-01-16",
+      "admissions_prevues": 473,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 570,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 76.8,
+          "surplus_deficit": 172,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 310,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 80.4,
+          "surplus_deficit": 75,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 97,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 93.1,
+          "surplus_deficit": 7,
+          "alerte": true,
+          "critique": false
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 65,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 92.4,
+          "surplus_deficit": 5,
+          "alerte": true,
+          "critique": false
+        },
+        "urgences": {
+          "lits_necessaires": 54,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 107.4,
+          "surplus_deficit": -4,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 43,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 89.9,
+          "surplus_deficit": 5,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1138,
+          "capacite_totale": 1399,
+          "taux_global": 81.3
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 141,
+          "effectif_avec_marge": 162,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 33.9,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 46,
+            "chirurgie": 37,
+            "reanimation": 34,
+            "soins_intensifs": 16,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 707,
+          "effectif_avec_marge": 813,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 25.4,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 256,
+            "chirurgie": 155,
+            "reanimation": 175,
+            "soins_intensifs": 78,
+            "urgences": 43
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 433,
+          "effectif_avec_marge": 498,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 33.2,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 200,
+            "chirurgie": 93,
+            "reanimation": 78,
+            "soins_intensifs": 39,
+            "urgences": 24
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 166,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.1,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 85,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 71.0,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 260,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 118,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 71,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.3,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 3
+    },
+    {
+      "date": "2026-01-17",
+      "admissions_prevues": 473,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 575,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 77.4,
+          "surplus_deficit": 167,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 301,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 78.1,
+          "surplus_deficit": 84,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 103,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 98.6,
+          "surplus_deficit": 1,
+          "alerte": true,
+          "critique": true
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 63,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 90.2,
+          "surplus_deficit": 7,
+          "alerte": true,
+          "critique": false
+        },
+        "urgences": {
+          "lits_necessaires": 54,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 108.4,
+          "surplus_deficit": -4,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 44,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 91.8,
+          "surplus_deficit": 4,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1139,
+          "capacite_totale": 1399,
+          "taux_global": 81.4
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 142,
+          "effectif_avec_marge": 163,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 34.1,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 46,
+            "chirurgie": 36,
+            "reanimation": 36,
+            "soins_intensifs": 16,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 713,
+          "effectif_avec_marge": 820,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 25.6,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 259,
+            "chirurgie": 150,
+            "reanimation": 185,
+            "soins_intensifs": 76,
+            "urgences": 43
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 436,
+          "effectif_avec_marge": 501,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 33.4,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 201,
+            "chirurgie": 90,
+            "reanimation": 82,
+            "soins_intensifs": 38,
+            "urgences": 24
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 166,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.1,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 85,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 71.0,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 260,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 118,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 71,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.3,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 3
+    },
+    {
+      "date": "2026-01-18",
+      "admissions_prevues": 472,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 594,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 80.0,
+          "surplus_deficit": 148,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 297,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 77.3,
+          "surplus_deficit": 88,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 94,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 90.4,
+          "surplus_deficit": 10,
+          "alerte": true,
+          "critique": false
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 68,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 97.0,
+          "surplus_deficit": 2,
+          "alerte": true,
+          "critique": true
+        },
+        "urgences": {
+          "lits_necessaires": 53,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 106.7,
+          "surplus_deficit": -3,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 44,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 92.3,
+          "surplus_deficit": 4,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1151,
+          "capacite_totale": 1399,
+          "taux_global": 82.3
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 141,
+          "effectif_avec_marge": 162,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 33.9,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 48,
+            "chirurgie": 36,
+            "reanimation": 33,
+            "soins_intensifs": 17,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 709,
+          "effectif_avec_marge": 815,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 25.5,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 267,
+            "chirurgie": 148,
+            "reanimation": 169,
+            "soins_intensifs": 82,
+            "urgences": 42
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 437,
+          "effectif_avec_marge": 502,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 33.5,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 208,
+            "chirurgie": 89,
+            "reanimation": 75,
+            "soins_intensifs": 41,
+            "urgences": 24
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 165,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.0,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 85,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 70.8,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 260,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 118,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 71,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.3,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 3
+    },
+    {
+      "date": "2026-01-19",
+      "admissions_prevues": 472,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 592,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 79.8,
+          "surplus_deficit": 150,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 306,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 79.4,
+          "surplus_deficit": 79,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 97,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 93.1,
+          "surplus_deficit": 7,
+          "alerte": true,
+          "critique": false
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 67,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 95.2,
+          "surplus_deficit": 3,
+          "alerte": true,
+          "critique": true
+        },
+        "urgences": {
+          "lits_necessaires": 54,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 107.8,
+          "surplus_deficit": -4,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 43,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 89.5,
+          "surplus_deficit": 5,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1158,
+          "capacite_totale": 1399,
+          "taux_global": 82.8
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 143,
+          "effectif_avec_marge": 164,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 34.3,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 47,
+            "chirurgie": 37,
+            "reanimation": 34,
+            "soins_intensifs": 17,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 718,
+          "effectif_avec_marge": 825,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 25.8,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 266,
+            "chirurgie": 153,
+            "reanimation": 175,
+            "soins_intensifs": 80,
+            "urgences": 43
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 441,
+          "effectif_avec_marge": 507,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 33.8,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 207,
+            "chirurgie": 92,
+            "reanimation": 78,
+            "soins_intensifs": 40,
+            "urgences": 24
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 165,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.0,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 85,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 70.8,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 260,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 118,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 71,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.3,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 3
+    },
+    {
+      "date": "2026-01-20",
+      "admissions_prevues": 472,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 621,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 83.7,
+          "surplus_deficit": 121,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 311,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 80.8,
+          "surplus_deficit": 74,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 94,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 90.3,
+          "surplus_deficit": 10,
+          "alerte": true,
+          "critique": false
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 64,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 91.8,
+          "surplus_deficit": 6,
+          "alerte": true,
+          "critique": false
+        },
+        "urgences": {
+          "lits_necessaires": 52,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 103.8,
+          "surplus_deficit": -2,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 45,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 94.1,
+          "surplus_deficit": 3,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1187,
+          "capacite_totale": 1399,
+          "taux_global": 84.9
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 144,
+          "effectif_avec_marge": 165,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 34.5,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 50,
+            "chirurgie": 37,
+            "reanimation": 33,
+            "soins_intensifs": 16,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 723,
+          "effectif_avec_marge": 831,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 26.0,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 279,
+            "chirurgie": 156,
+            "reanimation": 169,
+            "soins_intensifs": 77,
+            "urgences": 42
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 448,
+          "effectif_avec_marge": 515,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 34.3,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 217,
+            "chirurgie": 93,
+            "reanimation": 75,
+            "soins_intensifs": 38,
+            "urgences": 23
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 165,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.0,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 85,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 70.8,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 260,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 118,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 71,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.3,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 3
+    },
+    {
+      "date": "2026-01-21",
+      "admissions_prevues": 472,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 583,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 78.6,
+          "surplus_deficit": 159,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 299,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 77.5,
+          "surplus_deficit": 86,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 93,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 89.3,
+          "surplus_deficit": 11,
+          "alerte": true,
+          "critique": false
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 65,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 92.5,
+          "surplus_deficit": 5,
+          "alerte": true,
+          "critique": false
+        },
+        "urgences": {
+          "lits_necessaires": 55,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 110,
+          "surplus_deficit": -5,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 45,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 93.8,
+          "surplus_deficit": 3,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1140,
+          "capacite_totale": 1399,
+          "taux_global": 81.5
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 140,
+          "effectif_avec_marge": 161,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 33.5,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 47,
+            "chirurgie": 36,
+            "reanimation": 33,
+            "soins_intensifs": 16,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 701,
+          "effectif_avec_marge": 806,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 25.2,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 262,
+            "chirurgie": 150,
+            "reanimation": 167,
+            "soins_intensifs": 78,
+            "urgences": 44
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 432,
+          "effectif_avec_marge": 497,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 33.1,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 204,
+            "chirurgie": 90,
+            "reanimation": 74,
+            "soins_intensifs": 39,
+            "urgences": 25
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 165,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.0,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 85,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 70.8,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 260,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 118,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 71,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.3,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 3
+    },
+    {
+      "date": "2026-01-22",
+      "admissions_prevues": 472,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 612,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 82.5,
+          "surplus_deficit": 130,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 308,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 80.1,
+          "surplus_deficit": 77,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 103,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 98.6,
+          "surplus_deficit": 1,
+          "alerte": true,
+          "critique": true
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 68,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 96.5,
+          "surplus_deficit": 2,
+          "alerte": true,
+          "critique": true
+        },
+        "urgences": {
+          "lits_necessaires": 55,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 110,
+          "surplus_deficit": -5,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 42,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 88.4,
+          "surplus_deficit": 6,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1188,
+          "capacite_totale": 1399,
+          "taux_global": 84.9
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 147,
+          "effectif_avec_marge": 169,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 35.3,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 49,
+            "chirurgie": 37,
+            "reanimation": 36,
+            "soins_intensifs": 17,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 740,
+          "effectif_avec_marge": 851,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 26.6,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 275,
+            "chirurgie": 154,
+            "reanimation": 185,
+            "soins_intensifs": 82,
+            "urgences": 44
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 455,
+          "effectif_avec_marge": 523,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 34.8,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 214,
+            "chirurgie": 92,
+            "reanimation": 82,
+            "soins_intensifs": 41,
+            "urgences": 25
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 165,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.0,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 85,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 70.8,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 260,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 118,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 71,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.3,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 4
+    },
+    {
+      "date": "2026-01-23",
+      "admissions_prevues": 472,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 580,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 78.2,
+          "surplus_deficit": 162,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 301,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 78.3,
+          "surplus_deficit": 84,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 96,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 92.3,
+          "surplus_deficit": 8,
+          "alerte": true,
+          "critique": false
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 66,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 93.9,
+          "surplus_deficit": 4,
+          "alerte": true,
+          "critique": false
+        },
+        "urgences": {
+          "lits_necessaires": 53,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 106.3,
+          "surplus_deficit": -3,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 44,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 91.5,
+          "surplus_deficit": 4,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1140,
+          "capacite_totale": 1399,
+          "taux_global": 81.5
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 141,
+          "effectif_avec_marge": 162,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 33.7,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 46,
+            "chirurgie": 36,
+            "reanimation": 34,
+            "soins_intensifs": 16,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 706,
+          "effectif_avec_marge": 812,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 25.4,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 261,
+            "chirurgie": 150,
+            "reanimation": 173,
+            "soins_intensifs": 79,
+            "urgences": 42
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 434,
+          "effectif_avec_marge": 499,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 33.2,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 203,
+            "chirurgie": 90,
+            "reanimation": 77,
+            "soins_intensifs": 40,
+            "urgences": 24
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 165,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.0,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 85,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 70.8,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 260,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 118,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 71,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.3,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 3
+    },
+    {
+      "date": "2026-01-24",
+      "admissions_prevues": 472,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 572,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 77.1,
+          "surplus_deficit": 170,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 302,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 78.5,
+          "surplus_deficit": 83,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 100,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 96.0,
+          "surplus_deficit": 4,
+          "alerte": true,
+          "critique": true
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 67,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 95.6,
+          "surplus_deficit": 3,
+          "alerte": true,
+          "critique": true
+        },
+        "urgences": {
+          "lits_necessaires": 56,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 110,
+          "surplus_deficit": -6,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 45,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 94.5,
+          "surplus_deficit": 3,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1143,
+          "capacite_totale": 1399,
+          "taux_global": 81.7
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 142,
+          "effectif_avec_marge": 163,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 34.1,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 46,
+            "chirurgie": 36,
+            "reanimation": 35,
+            "soins_intensifs": 17,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 714,
+          "effectif_avec_marge": 821,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 25.6,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 257,
+            "chirurgie": 151,
+            "reanimation": 180,
+            "soins_intensifs": 80,
+            "urgences": 45
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 436,
+          "effectif_avec_marge": 502,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 33.4,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 200,
+            "chirurgie": 91,
+            "reanimation": 80,
+            "soins_intensifs": 40,
+            "urgences": 25
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 165,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.0,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 85,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 70.8,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 260,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 118,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 71,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.3,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 4
+    },
+    {
+      "date": "2026-01-25",
+      "admissions_prevues": 472,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 596,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 80.3,
+          "surplus_deficit": 146,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 297,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 77.2,
+          "surplus_deficit": 88,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 100,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 96.2,
+          "surplus_deficit": 4,
+          "alerte": true,
+          "critique": true
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 63,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 89.7,
+          "surplus_deficit": 7,
+          "alerte": true,
+          "critique": false
+        },
+        "urgences": {
+          "lits_necessaires": 56,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 110,
+          "surplus_deficit": -6,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 42,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 87.1,
+          "surplus_deficit": 6,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1154,
+          "capacite_totale": 1399,
+          "taux_global": 82.5
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 142,
+          "effectif_avec_marge": 164,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 34.2,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 48,
+            "chirurgie": 36,
+            "reanimation": 35,
+            "soins_intensifs": 16,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 717,
+          "effectif_avec_marge": 825,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 25.8,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 268,
+            "chirurgie": 148,
+            "reanimation": 180,
+            "soins_intensifs": 76,
+            "urgences": 45
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 441,
+          "effectif_avec_marge": 507,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 33.8,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 209,
+            "chirurgie": 89,
+            "reanimation": 80,
+            "soins_intensifs": 38,
+            "urgences": 25
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 165,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.0,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 85,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 70.8,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 260,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 118,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 71,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.3,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 3
+    },
+    {
+      "date": "2026-01-26",
+      "admissions_prevues": 472,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 584,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 78.7,
+          "surplus_deficit": 158,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 310,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 80.5,
+          "surplus_deficit": 75,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 94,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 90.4,
+          "surplus_deficit": 10,
+          "alerte": true,
+          "critique": false
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 67,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 95.7,
+          "surplus_deficit": 3,
+          "alerte": true,
+          "critique": true
+        },
+        "urgences": {
+          "lits_necessaires": 52,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 104.5,
+          "surplus_deficit": -2,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 45,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 94.5,
+          "surplus_deficit": 3,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1152,
+          "capacite_totale": 1399,
+          "taux_global": 82.4
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 141,
+          "effectif_avec_marge": 163,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 33.9,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 47,
+            "chirurgie": 37,
+            "reanimation": 33,
+            "soins_intensifs": 17,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 709,
+          "effectif_avec_marge": 815,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 25.5,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 263,
+            "chirurgie": 155,
+            "reanimation": 169,
+            "soins_intensifs": 80,
+            "urgences": 42
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 436,
+          "effectif_avec_marge": 502,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 33.4,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 204,
+            "chirurgie": 93,
+            "reanimation": 75,
+            "soins_intensifs": 40,
+            "urgences": 23
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 165,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.0,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 85,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 70.8,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 260,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 118,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 71,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.3,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 3
+    },
+    {
+      "date": "2026-01-27",
+      "admissions_prevues": 472,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 613,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 82.6,
+          "surplus_deficit": 129,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 304,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 79.0,
+          "surplus_deficit": 81,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 102,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 98.2,
+          "surplus_deficit": 2,
+          "alerte": true,
+          "critique": true
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 64,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 91.6,
+          "surplus_deficit": 6,
+          "alerte": true,
+          "critique": false
+        },
+        "urgences": {
+          "lits_necessaires": 54,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 108.4,
+          "surplus_deficit": -4,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 44,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 90.7,
+          "surplus_deficit": 4,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1181,
+          "capacite_totale": 1399,
+          "taux_global": 84.4
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 145,
+          "effectif_avec_marge": 167,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 34.9,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 49,
+            "chirurgie": 36,
+            "reanimation": 36,
+            "soins_intensifs": 16,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 731,
+          "effectif_avec_marge": 841,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 26.3,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 276,
+            "chirurgie": 152,
+            "reanimation": 184,
+            "soins_intensifs": 77,
+            "urgences": 43
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 450,
+          "effectif_avec_marge": 518,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 34.5,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 215,
+            "chirurgie": 91,
+            "reanimation": 82,
+            "soins_intensifs": 38,
+            "urgences": 24
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 165,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.0,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 85,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 70.8,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 260,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 118,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 71,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.3,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 3
+    },
+    {
+      "date": "2026-01-28",
+      "admissions_prevues": 472,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 590,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 79.5,
+          "surplus_deficit": 152,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 311,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 80.9,
+          "surplus_deficit": 74,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 101,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 97.5,
+          "surplus_deficit": 3,
+          "alerte": true,
+          "critique": true
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 64,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 91.5,
+          "surplus_deficit": 6,
+          "alerte": true,
+          "critique": false
+        },
+        "urgences": {
+          "lits_necessaires": 56,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 110,
+          "surplus_deficit": -6,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 45,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 92.9,
+          "surplus_deficit": 3,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1167,
+          "capacite_totale": 1399,
+          "taux_global": 83.4
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 144,
+          "effectif_avec_marge": 166,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 34.6,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 47,
+            "chirurgie": 37,
+            "reanimation": 35,
+            "soins_intensifs": 16,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 724,
+          "effectif_avec_marge": 833,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 26.0,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 266,
+            "chirurgie": 156,
+            "reanimation": 182,
+            "soins_intensifs": 77,
+            "urgences": 45
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 444,
+          "effectif_avec_marge": 511,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 34.1,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 206,
+            "chirurgie": 93,
+            "reanimation": 81,
+            "soins_intensifs": 38,
+            "urgences": 25
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 165,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.0,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 85,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 70.8,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 260,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 118,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 71,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.3,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 3
+    },
+    {
+      "date": "2026-01-29",
+      "admissions_prevues": 472,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 579,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 78.1,
+          "surplus_deficit": 163,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 308,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 79.9,
+          "surplus_deficit": 77,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 95,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 91.0,
+          "surplus_deficit": 9,
+          "alerte": true,
+          "critique": false
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 67,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 96.2,
+          "surplus_deficit": 3,
+          "alerte": true,
+          "critique": true
+        },
+        "urgences": {
+          "lits_necessaires": 54,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 108.8,
+          "surplus_deficit": -4,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 43,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 89.1,
+          "surplus_deficit": 5,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1146,
+          "capacite_totale": 1399,
+          "taux_global": 81.9
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 141,
+          "effectif_avec_marge": 163,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 33.9,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 46,
+            "chirurgie": 37,
+            "reanimation": 33,
+            "soins_intensifs": 17,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 709,
+          "effectif_avec_marge": 816,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 25.5,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 261,
+            "chirurgie": 154,
+            "reanimation": 171,
+            "soins_intensifs": 80,
+            "urgences": 43
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 436,
+          "effectif_avec_marge": 501,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 33.4,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 203,
+            "chirurgie": 92,
+            "reanimation": 76,
+            "soins_intensifs": 40,
+            "urgences": 24
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 165,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.0,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 85,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 70.8,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 260,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 118,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 71,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.3,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 3
+    },
+    {
+      "date": "2026-01-30",
+      "admissions_prevues": 472,
+      "lits": {
+        "medecine": {
+          "lits_necessaires": 593,
+          "capacite_actuelle": 742,
+          "taux_utilisation_prevu": 80.0,
+          "surplus_deficit": 149,
+          "alerte": false,
+          "critique": false
+        },
+        "chirurgie": {
+          "lits_necessaires": 298,
+          "capacite_actuelle": 385,
+          "taux_utilisation_prevu": 77.4,
+          "surplus_deficit": 87,
+          "alerte": false,
+          "critique": false
+        },
+        "reanimation": {
+          "lits_necessaires": 102,
+          "capacite_actuelle": 104,
+          "taux_utilisation_prevu": 98.5,
+          "surplus_deficit": 2,
+          "alerte": true,
+          "critique": true
+        },
+        "soins_intensifs": {
+          "lits_necessaires": 63,
+          "capacite_actuelle": 70,
+          "taux_utilisation_prevu": 89.6,
+          "surplus_deficit": 7,
+          "alerte": true,
+          "critique": false
+        },
+        "urgences": {
+          "lits_necessaires": 53,
+          "capacite_actuelle": 50,
+          "taux_utilisation_prevu": 105.7,
+          "surplus_deficit": -3,
+          "alerte": true,
+          "critique": true
+        },
+        "obstetrique": {
+          "lits_necessaires": 42,
+          "capacite_actuelle": 48,
+          "taux_utilisation_prevu": 86.7,
+          "surplus_deficit": 6,
+          "alerte": true,
+          "critique": false
+        },
+        "total": {
+          "lits_necessaires": 1151,
+          "capacite_totale": 1399,
+          "taux_global": 82.3
+        }
+      },
+      "personnel": {
+        "medecins": {
+          "effectif_necessaire": 143,
+          "effectif_avec_marge": 164,
+          "effectif_disponible": 479,
+          "taux_mobilisation": 34.2,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 47,
+            "chirurgie": 36,
+            "reanimation": 36,
+            "soins_intensifs": 16,
+            "urgences": 8
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "infirmiers": {
+          "effectif_necessaire": 717,
+          "effectif_avec_marge": 825,
+          "effectif_disponible": 3200,
+          "taux_mobilisation": 25.8,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 267,
+            "chirurgie": 149,
+            "reanimation": 184,
+            "soins_intensifs": 76,
+            "urgences": 42
+          },
+          "alerte": false,
+          "critique": false
+        },
+        "aides_soignants": {
+          "effectif_necessaire": 440,
+          "effectif_avec_marge": 506,
+          "effectif_disponible": 1500,
+          "taux_mobilisation": 33.7,
+          "deficit": 0,
+          "breakdown": {
+            "medecine": 208,
+            "chirurgie": 89,
+            "reanimation": 82,
+            "soins_intensifs": 38,
+            "urgences": 24
+          },
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "equipements": {
+        "scanner": {
+          "examens_prevus": 165,
+          "capacite_jour": 280,
+          "nb_machines": 7,
+          "taux_utilisation": 59.0,
+          "alerte": false,
+          "critique": false
+        },
+        "irm": {
+          "examens_prevus": 85,
+          "capacite_jour": 120,
+          "nb_machines": 6,
+          "taux_utilisation": 70.8,
+          "alerte": false,
+          "critique": false
+        },
+        "radio": {
+          "examens_prevus": 260,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "echo": {
+          "examens_prevus": 118,
+          "capacite_jour": null,
+          "taux_utilisation": null
+        },
+        "bloc_operatoire": {
+          "examens_prevus": 71,
+          "capacite_jour": 318,
+          "nb_machines": 53,
+          "taux_utilisation": 22.3,
+          "alerte": false,
+          "critique": false
+        }
+      },
+      "alertes": {
+        "lits": true,
+        "personnel": false,
+        "equipements": false
+      },
+      "niveau_risque": 3
+    }
+  ],
+  "summary": {
+    "admissions_moyenne": 474,
+    "admissions_max": 481,
+    "jours_alerte_lits": 30,
+    "jours_alerte_personnel": 0,
+    "jours_alerte_equipements": 0,
+    "risque_moyen": 3.2
+  },
+  "weekly": [
+    {
+      "semaine": "Semaine 1",
+      "debut": "2026-01-01",
+      "fin": "2026-01-07",
+      "admissions_total": 3350,
+      "admissions_moyenne": 479,
+      "jours_alerte": 7,
+      "risque_max": 4
+    },
+    {
+      "semaine": "Semaine 2",
+      "debut": "2026-01-08",
+      "fin": "2026-01-14",
+      "admissions_total": 3319,
+      "admissions_moyenne": 474,
+      "jours_alerte": 7,
+      "risque_max": 3
+    },
+    {
+      "semaine": "Semaine 3",
+      "debut": "2026-01-15",
+      "fin": "2026-01-21",
+      "admissions_total": 3307,
+      "admissions_moyenne": 472,
+      "jours_alerte": 7,
+      "risque_max": 3
+    },
+    {
+      "semaine": "Semaine 4",
+      "debut": "2026-01-22",
+      "fin": "2026-01-28",
+      "admissions_total": 3304,
+      "admissions_moyenne": 472,
+      "jours_alerte": 7,
+      "risque_max": 4
+    },
+    {
+      "semaine": "Semaine 5",
+      "debut": "2026-01-29",
+      "fin": "2026-01-30",
+      "admissions_total": 944,
+      "admissions_moyenne": 472,
+      "jours_alerte": 2,
+      "risque_max": 3
+    }
+  ],
+  "recommendations": [
+    {
+      "type": "global",
+      "priorite": "critique",
+      "titre": "Niveau de risque \u00e9lev\u00e9",
+      "description": "Risque moyen de 3.2/5 sur la p\u00e9riode.",
+      "action": "Activer le plan de gestion de crise. R\u00e9union de coordination recommand\u00e9e."
+    },
+    {
+      "type": "lits",
+      "priorite": "haute",
+      "titre": "Tension sur les lits pr\u00e9vue",
+      "description": "30 jours avec risque de suroccupation des lits sur les 30 prochains jours.",
+      "action": "Pr\u00e9parer des lits suppl\u00e9mentaires ou pr\u00e9voir des transferts vers d'autres \u00e9tablissements.",
+      "dates_critiques": [
+        "2026-01-02",
+        "2026-01-03",
+        "2026-01-08"
+      ]
+    }
+  ]
+}

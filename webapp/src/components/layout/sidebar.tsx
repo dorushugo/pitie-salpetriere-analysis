@@ -18,6 +18,7 @@ import {
   HelpCircle,
   Bed,
   Database,
+  Package,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useState } from 'react';
@@ -58,6 +59,12 @@ const mainNavItems = [
     label: 'Prédictions',
     icon: TrendingUp,
     description: 'Prévisions IA',
+  },
+  {
+    href: '/predictions/resources',
+    label: 'Besoins Ressources',
+    icon: Package,
+    description: 'Lits, personnel, équipements',
   },
   {
     href: '/export',

@@ -58,18 +58,24 @@ const defaultForecast: DayForecast[] = [
 ];
 
 export function StaffingForecast({
-  forecast = defaultForecast,
+  forecast,
   personnelActuel = 286,
   poolRemplacement = 45,
 }: StaffingForecastProps) {
+  // Utiliser les données par défaut si forecast est vide
+  const forecastData = forecast && forecast.length > 0 ? forecast : defaultForecast;
+  
+  // Arrondir le personnel (pas de décimales pour des personnes)
+  const effectifActuel = Math.round(personnelActuel);
+  
   // Calculer les statistiques
-  const totalDeficit = forecast.reduce((sum, d) => sum + Math.max(0, -d.deficit), 0);
-  const joursEnDeficit = forecast.filter(d => d.deficit < -10).length;
-  const maxDeficit = Math.min(...forecast.map(d => d.deficit));
-  const joursAlerte = forecast.filter(d => d.deficit < -20);
+  const totalDeficit = forecastData.reduce((sum, d) => sum + Math.max(0, -d.deficit), 0);
+  const joursEnDeficit = forecastData.filter(d => d.deficit < -10).length;
+  const maxDeficit = forecastData.length > 0 ? Math.min(...forecastData.map(d => d.deficit)) : 0;
+  const joursAlerte = forecastData.filter(d => d.deficit < -20);
 
   // Préparer les données pour le graphique
-  const chartData = forecast.map(d => ({
+  const chartData = forecastData.map(d => ({
     ...d,
     prevu: d.personnelPrevu,
     requis: d.personnelRequis,
@@ -104,7 +110,7 @@ export function StaffingForecast({
               <Users className="h-4 w-4" />
               <span className="text-sm">Effectif actuel</span>
             </div>
-            <div className="text-2xl font-bold text-blue-700">{personnelActuel}</div>
+            <div className="text-2xl font-bold text-blue-700">{effectifActuel}</div>
             <div className="text-xs text-blue-600">soignants présents</div>
           </div>
 

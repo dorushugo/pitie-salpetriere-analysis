@@ -1,0 +1,222 @@
+{
+  "model": "Prophet",
+  "generated_at": "2026-02-04T09:56:19.361993",
+  "metrics": {
+    "mae": 84.93,
+    "rmse": 93.24,
+    "mape": 18.06,
+    "r2": -0.6803
+  },
+  "predictions": [
+    {
+      "date": "2025-12-02",
+      "predicted_admissions": 576,
+      "lower_bound": 469,
+      "upper_bound": 677,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-03",
+      "predicted_admissions": 586,
+      "lower_bound": 480,
+      "upper_bound": 695,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-04",
+      "predicted_admissions": 594,
+      "lower_bound": 481,
+      "upper_bound": 690,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-05",
+      "predicted_admissions": 596,
+      "lower_bound": 497,
+      "upper_bound": 699,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-06",
+      "predicted_admissions": 492,
+      "lower_bound": 383,
+      "upper_bound": 594,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-07",
+      "predicted_admissions": 466,
+      "lower_bound": 370,
+      "upper_bound": 578,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-08",
+      "predicted_admissions": 564,
+      "lower_bound": 459,
+      "upper_bound": 670,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-09",
+      "predicted_admissions": 600,
+      "lower_bound": 496,
+      "upper_bound": 701,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-10",
+      "predicted_admissions": 608,
+      "lower_bound": 506,
+      "upper_bound": 706,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-11",
+      "predicted_admissions": 616,
+      "lower_bound": 518,
+      "upper_bound": 715,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-12",
+      "predicted_admissions": 618,
+      "lower_bound": 517,
+      "upper_bound": 726,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-13",
+      "predicted_admissions": 513,
+      "lower_bound": 417,
+      "upper_bound": 615,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-14",
+      "predicted_admissions": 485,
+      "lower_bound": 382,
+      "upper_bound": 591,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-15",
+      "predicted_admissions": 582,
+      "lower_bound": 477,
+      "upper_bound": 684,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-16",
+      "predicted_admissions": 617,
+      "lower_bound": 518,
+      "upper_bound": 714,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-17",
+      "predicted_admissions": 627,
+      "lower_bound": 526,
+      "upper_bound": 732,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-18",
+      "predicted_admissions": 636,
+      "lower_bound": 527,
+      "upper_bound": 731,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-19",
+      "predicted_admissions": 639,
+      "lower_bound": 544,
+      "upper_bound": 742,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-20",
+      "predicted_admissions": 534,
+      "lower_bound": 433,
+      "upper_bound": 640,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-21",
+      "predicted_admissions": 505,
+      "lower_bound": 411,
+      "upper_bound": 605,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-22",
+      "predicted_admissions": 600,
+      "lower_bound": 495,
+      "upper_bound": 705,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-23",
+      "predicted_admissions": 634,
+      "lower_bound": 539,
+      "upper_bound": 734,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-24",
+      "predicted_admissions": 646,
+      "lower_bound": 549,
+      "upper_bound": 753,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-25",
+      "predicted_admissions": 649,
+      "lower_bound": 543,
+      "upper_bound": 748,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-26",
+      "predicted_admissions": 635,
+      "lower_bound": 524,
+      "upper_bound": 737,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-27",
+      "predicted_admissions": 537,
+      "lower_bound": 432,
+      "upper_bound": 637,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-28",
+      "predicted_admissions": 506,
+      "lower_bound": 406,
+      "upper_bound": 606,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-29",
+      "predicted_admissions": 599,
+      "lower_bound": 495,
+      "upper_bound": 697,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-30",
+      "predicted_admissions": 631,
+      "lower_bound": 525,
+      "upper_bound": 730,
+      "confidence": 0.95
+    },
+    {
+      "date": "2025-12-31",
+      "predicted_admissions": 642,
+      "lower_bound": 542,
+      "upper_bound": 750,
+      "confidence": 0.95
+    }
+  ]
+}

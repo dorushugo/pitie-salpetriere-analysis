@@ -20,7 +20,7 @@ import {
   Area,
   AreaChart,
 } from 'recharts';
-import { Bed, Users, Activity, TrendingUp, TrendingDown, AlertTriangle, Building2 } from 'lucide-react';
+import { Bed, Users, Activity, AlertTriangle, Building2 } from 'lucide-react';
 
 type Service = {
   id: string;
@@ -211,14 +211,7 @@ export default function ServicesPage() {
 
         <TabsContent value="lits">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {data.services.map((service) => {
-              const evolution =
-                ((service.evolution_lits[3] - service.evolution_lits[0]) /
-                  service.evolution_lits[0]) *
-                100;
-              const isUp = evolution > 0;
-
-              return (
+            {data.services.map((service) => (
                 <Card
                   key={service.id}
                   className={`cursor-pointer transition-all hover:shadow-lg ${
@@ -270,15 +263,6 @@ export default function ServicesPage() {
                         />
                       </div>
 
-                      {/* Évolution */}
-                      <div className="flex items-center justify-between pt-2 border-t">
-                        <span className="text-sm text-gray-500">Évolution 2020-2023</span>
-                        <div className={`flex items-center gap-1 ${isUp ? 'text-green-600' : 'text-red-600'}`}>
-                          {isUp ? <TrendingUp className="h-4 w-4" /> : <TrendingDown className="h-4 w-4" />}
-                          <span className="font-semibold">{evolution.toFixed(1)}%</span>
-                        </div>
-                      </div>
-
                       {/* Admissions */}
                       {service.admissions_2023 && (
                         <div className="text-xs text-gray-500 pt-1">
@@ -293,8 +277,7 @@ export default function ServicesPage() {
                     </div>
                   </CardContent>
                 </Card>
-              );
-            })}
+            ))}
           </div>
 
           {/* Alertes */}
@@ -496,12 +479,12 @@ export default function ServicesPage() {
               </CardContent>
             </Card>
 
-            {/* Personnel Non-Médical */}
+            {/* Personnel Paramédical & Technique */}
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Users className="h-5 w-5 text-green-600" />
-                  Personnel Non-Médical
+                  Personnel Paramédical & Technique
                 </CardTitle>
                 <CardDescription>
                   {Math.round(data.personnel.etp_non_medicaux).toLocaleString()} ETP total (2023)
@@ -510,7 +493,7 @@ export default function ServicesPage() {
               <CardContent>
                 <div className="space-y-4">
                   {[
-                    { label: 'Services de Soins (IDE, AS...)', value: data.personnel.soins, color: '#22c55e' },
+                    { label: 'Soignants (IDE, AS...)', value: data.personnel.soins, color: '#22c55e' },
                     { label: 'Techniques & Ouvriers', value: data.personnel.techniques_ouvriers, color: '#f97316' },
                     { label: 'Administratifs', value: data.personnel.administratifs, color: '#6366f1' },
                     { label: 'Médico-techniques', value: data.personnel.medico_techniques, color: '#ec4899' },
@@ -563,8 +546,8 @@ export default function ServicesPage() {
                     <LineChart
                       data={data.annees.map((annee, idx) => ({
                         annee: annee.toString(),
-                        'Personnel Soins': data.personnel.evolution_soins?.[idx] || 0,
-                        'Personnel Médical': data.personnel.evolution_medicaux?.[idx] || 0,
+                        'Soignants': data.personnel.evolution_soins?.[idx] || 0,
+                        'Médical': data.personnel.evolution_medicaux?.[idx] || 0,
                       }))}
                     >
                       <CartesianGrid strokeDasharray="3 3" />
@@ -573,15 +556,15 @@ export default function ServicesPage() {
                       <YAxis yAxisId="right" orientation="right" />
                       <Tooltip />
                       <Legend />
-                      <Line yAxisId="left" type="monotone" dataKey="Personnel Soins" stroke="#22c55e" strokeWidth={2} dot={{ r: 4 }} />
-                      <Line yAxisId="right" type="monotone" dataKey="Personnel Médical" stroke="#3b82f6" strokeWidth={2} dot={{ r: 4 }} />
+                      <Line yAxisId="left" type="monotone" dataKey="Soignants" stroke="#22c55e" strokeWidth={2} dot={{ r: 4 }} />
+                      <Line yAxisId="right" type="monotone" dataKey="Médical" stroke="#3b82f6" strokeWidth={2} dot={{ r: 4 }} />
                     </LineChart>
                   </ResponsiveContainer>
                 </div>
                 
                 <div className="grid grid-cols-2 gap-4 mt-4">
                   <div className="p-3 bg-red-50 rounded-lg">
-                    <p className="text-sm font-semibold text-red-800">Évolution Soins 2020→2023</p>
+                    <p className="text-sm font-semibold text-red-800">Soignants 2020→2023</p>
                     <p className="text-lg font-bold text-red-600">
                       {data.personnel.evolution_soins ? 
                         `${(((data.personnel.evolution_soins[3] - data.personnel.evolution_soins[0]) / data.personnel.evolution_soins[0]) * 100).toFixed(1)}%` 
@@ -590,7 +573,7 @@ export default function ServicesPage() {
                     <p className="text-xs text-red-600">Réduction des effectifs soignants</p>
                   </div>
                   <div className="p-3 bg-green-50 rounded-lg">
-                    <p className="text-sm font-semibold text-green-800">Évolution Médicaux 2020→2023</p>
+                    <p className="text-sm font-semibold text-green-800">Médical 2020→2023</p>
                     <p className="text-lg font-bold text-green-600">
                       {data.personnel.evolution_medicaux ? 
                         `${(((data.personnel.evolution_medicaux[3] - data.personnel.evolution_medicaux[0]) / data.personnel.evolution_medicaux[0]) * 100).toFixed(1)}%` 

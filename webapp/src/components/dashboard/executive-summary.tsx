@@ -18,7 +18,6 @@ import {
   Download,
   Calendar,
   Target,
-  Award,
   BarChart3,
 } from 'lucide-react';
 
@@ -43,11 +42,6 @@ interface ExecutiveSummaryProps {
     nextWeekAdmissions: number;
     confidence: number;
     trend: 'up' | 'down' | 'stable';
-  };
-  toolROI: {
-    savingsFromPredictions: number;
-    interimCostAvoided: number;
-    efficiencyGain: number; // %
   };
 }
 
@@ -86,7 +80,6 @@ export function ExecutiveSummary({
   currentPeriod, 
   previousPeriod, 
   predictions,
-  toolROI 
 }: ExecutiveSummaryProps) {
   const admissionsVar = getVariation(currentPeriod.admissions, previousPeriod.admissions);
   const occupancyVar = getVariation(currentPeriod.occupancyRate, previousPeriod.occupancyRate);
@@ -194,71 +187,6 @@ export function ExecutiveSummary({
           </CardContent>
         </Card>
       </div>
-
-      {/* ROI de l'outil prédictif */}
-      <Card className="bg-gradient-to-r from-emerald-50 to-teal-50 border-emerald-200">
-        <CardHeader className="pb-2">
-          <CardTitle className="flex items-center gap-2 text-emerald-800">
-            <Award className="h-5 w-5" />
-            ROI de l'Outil Prédictif - Ce Mois
-          </CardTitle>
-          <CardDescription>
-            Économies et gains d'efficience générés grâce aux prédictions
-          </CardDescription>
-        </CardHeader>
-        <CardContent>
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="text-center p-4 bg-white/60 rounded-lg">
-              <p className="text-3xl font-bold text-emerald-700">
-                {formatCurrency(toolROI.savingsFromPredictions)}
-              </p>
-              <p className="text-sm text-emerald-600 mt-1">
-                Économies totales
-              </p>
-              <p className="text-xs text-muted-foreground mt-2">
-                Grâce à l'anticipation des pics
-              </p>
-            </div>
-            <div className="text-center p-4 bg-white/60 rounded-lg">
-              <p className="text-3xl font-bold text-emerald-700">
-                {formatCurrency(toolROI.interimCostAvoided)}
-              </p>
-              <p className="text-sm text-emerald-600 mt-1">
-                Intérim évité
-              </p>
-              <p className="text-xs text-muted-foreground mt-2">
-                Mobilisation pool interne en amont
-              </p>
-            </div>
-            <div className="text-center p-4 bg-white/60 rounded-lg">
-              <p className="text-3xl font-bold text-emerald-700">
-                +{toolROI.efficiencyGain}%
-              </p>
-              <p className="text-sm text-emerald-600 mt-1">
-                Gain d'efficience
-              </p>
-              <p className="text-xs text-muted-foreground mt-2">
-                Meilleure allocation ressources
-              </p>
-            </div>
-          </div>
-          
-          <div className="mt-4 p-3 bg-white/80 rounded-lg">
-            <div className="flex items-center justify-between text-sm">
-              <span className="text-emerald-700 font-medium">
-                ROI annualisé estimé
-              </span>
-              <span className="text-emerald-800 font-bold text-lg">
-                {formatCurrency(toolROI.savingsFromPredictions * 12)}
-              </span>
-            </div>
-            <Progress value={Math.min(100, (toolROI.savingsFromPredictions * 12) / 500000 * 100)} className="mt-2 h-2" />
-            <p className="text-xs text-muted-foreground mt-1">
-              Objectif: 500 000 € d'économies annuelles
-            </p>
-          </div>
-        </CardContent>
-      </Card>
 
       {/* Prévisions et alertes */}
       <div className="grid md:grid-cols-2 gap-4">
@@ -413,11 +341,6 @@ export function ExecutiveSummaryDemo() {
         nextWeekAdmissions: Math.round(data.current.admissions / 4 * 1.05),
         confidence: 87,
         trend: 'up',
-      }}
-      toolROI={{
-        savingsFromPredictions: 42500,
-        interimCostAvoided: 28000,
-        efficiencyGain: 12,
       }}
     />
   );

@@ -8,10 +8,9 @@ import { StaffingForecast } from '@/components/dashboard/staffing-forecast';
 import { FinancialOverview } from '@/components/dashboard/financial-overview';
 import { CrisisIntelligence } from '@/components/dashboard/crisis-intelligence';
 import { ExecutiveSummaryDemo } from '@/components/dashboard/executive-summary';
-import { HRSimulator } from '@/components/dashboard/hr-simulator';
 import { QualityIndicators } from '@/components/dashboard/quality-indicators';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Loader2, LayoutDashboard, Users, Euro, Activity, Shield, BarChart3, Calculator, Award } from 'lucide-react';
+import { Loader2, LayoutDashboard, Users, Euro, Shield, BarChart3, Award } from 'lucide-react';
 
 type DashboardData = {
   tauxOccupation: number;
@@ -130,7 +129,7 @@ export default function PilotagePage() {
 
       {/* Onglets pour les différentes vues */}
       <Tabs value={activeTab} onValueChange={setActiveTab}>
-        <TabsList className="grid w-full grid-cols-4 lg:grid-cols-8">
+        <TabsList className="grid w-full grid-cols-3 lg:grid-cols-6">
           <TabsTrigger value="direction" className="flex items-center gap-2">
             <BarChart3 className="h-4 w-4" />
             <span className="hidden sm:inline">Direction</span>
@@ -151,17 +150,9 @@ export default function PilotagePage() {
             <Users className="h-4 w-4" />
             <span className="hidden sm:inline">Personnel</span>
           </TabsTrigger>
-          <TabsTrigger value="simulator" className="flex items-center gap-2">
-            <Calculator className="h-4 w-4" />
-            <span className="hidden sm:inline">Simulateur</span>
-          </TabsTrigger>
           <TabsTrigger value="finance" className="flex items-center gap-2">
             <Euro className="h-4 w-4" />
             <span className="hidden sm:inline">Finances</span>
-          </TabsTrigger>
-          <TabsTrigger value="activity" className="flex items-center gap-2">
-            <Activity className="h-4 w-4" />
-            <span className="hidden sm:inline">Activité</span>
           </TabsTrigger>
         </TabsList>
 
@@ -197,61 +188,10 @@ export default function PilotagePage() {
           />
         </TabsContent>
 
-        {/* Simulateur RH */}
-        <TabsContent value="simulator" className="space-y-6 mt-6">
-          <HRSimulator />
-        </TabsContent>
-
         <TabsContent value="finance" className="space-y-6 mt-6">
           <FinancialOverview />
         </TabsContent>
-
-        <TabsContent value="activity" className="space-y-6 mt-6">
-          <div className="grid gap-6 md:grid-cols-2">
-            {data && (
-              <>
-                <ActionPanel
-                  predictions={data.predictions}
-                  tauxOccupation={data.tauxOccupation}
-                  personnelDisponible={data.personnelDisponible}
-                />
-                <StaffingForecast
-                  personnelActuel={data.personnelDisponible}
-                  poolRemplacement={45}
-                  forecast={[]}
-                />
-              </>
-            )}
-          </div>
-        </TabsContent>
       </Tabs>
-
-        {/* Résumé des bénéfices */}
-        <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-6 border border-blue-100">
-          <h3 className="font-semibold text-lg mb-3 text-blue-900">
-            💡 Valeur ajoutée de l'outil prédictif
-          </h3>
-          <div className="grid md:grid-cols-3 gap-4 text-sm">
-            <div>
-              <div className="font-medium text-blue-800">Anticipation</div>
-              <p className="text-blue-700">
-                Prédiction des pics d'activité 7 à 30 jours à l'avance avec 90% de précision
-              </p>
-            </div>
-            <div>
-              <div className="font-medium text-blue-800">Économies</div>
-              <p className="text-blue-700">
-                Réduction de 30% des coûts d'intérim grâce à la mobilisation anticipée du pool interne
-              </p>
-            </div>
-            <div>
-              <div className="font-medium text-blue-800">Qualité des soins</div>
-              <p className="text-blue-700">
-                Réduction des temps d'attente aux urgences de 20% grâce à l'optimisation des ressources
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
     </PageWrapper>
   );

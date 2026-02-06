@@ -1,0 +1,232 @@
+{
+  "model": "OptimizedEnsemble",
+  "components": [
+    "random_forest",
+    "gradient_boosting",
+    "prophet"
+  ],
+  "weights": {
+    "random_forest": 0.42605546376317466,
+    "gradient_boosting": 0.5126890637709528,
+    "prophet": 0.061255472465872575
+  },
+  "generated_at": "2026-02-04T09:58:40.992128",
+  "metrics": {
+    "mae": 7.371105446104737,
+    "rmse": 10.4077462096402,
+    "mape": 1.4518430327724012,
+    "r2": 0.9824621507758892
+  },
+  "predictions": [
+    {
+      "date": "2026-01-01",
+      "predicted_admissions": 470,
+      "lower_bound": 450,
+      "upper_bound": 490,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-02",
+      "predicted_admissions": 469,
+      "lower_bound": 448,
+      "upper_bound": 489,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-03",
+      "predicted_admissions": 469,
+      "lower_bound": 449,
+      "upper_bound": 489,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-04",
+      "predicted_admissions": 469,
+      "lower_bound": 449,
+      "upper_bound": 489,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-05",
+      "predicted_admissions": 468,
+      "lower_bound": 447,
+      "upper_bound": 488,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-06",
+      "predicted_admissions": 467,
+      "lower_bound": 447,
+      "upper_bound": 488,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-07",
+      "predicted_admissions": 468,
+      "lower_bound": 448,
+      "upper_bound": 489,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-08",
+      "predicted_admissions": 469,
+      "lower_bound": 448,
+      "upper_bound": 489,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-09",
+      "predicted_admissions": 468,
+      "lower_bound": 448,
+      "upper_bound": 489,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-10",
+      "predicted_admissions": 470,
+      "lower_bound": 449,
+      "upper_bound": 490,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-11",
+      "predicted_admissions": 470,
+      "lower_bound": 450,
+      "upper_bound": 490,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-12",
+      "predicted_admissions": 468,
+      "lower_bound": 447,
+      "upper_bound": 488,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-13",
+      "predicted_admissions": 468,
+      "lower_bound": 448,
+      "upper_bound": 489,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-14",
+      "predicted_admissions": 469,
+      "lower_bound": 449,
+      "upper_bound": 489,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-15",
+      "predicted_admissions": 470,
+      "lower_bound": 450,
+      "upper_bound": 490,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-16",
+      "predicted_admissions": 470,
+      "lower_bound": 450,
+      "upper_bound": 490,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-17",
+      "predicted_admissions": 470,
+      "lower_bound": 449,
+      "upper_bound": 490,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-18",
+      "predicted_admissions": 470,
+      "lower_bound": 450,
+      "upper_bound": 490,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-19",
+      "predicted_admissions": 469,
+      "lower_bound": 449,
+      "upper_bound": 490,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-20",
+      "predicted_admissions": 470,
+      "lower_bound": 449,
+      "upper_bound": 490,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-21",
+      "predicted_admissions": 470,
+      "lower_bound": 450,
+      "upper_bound": 491,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-22",
+      "predicted_admissions": 470,
+      "lower_bound": 450,
+      "upper_bound": 491,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-23",
+      "predicted_admissions": 470,
+      "lower_bound": 450,
+      "upper_bound": 490,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-24",
+      "predicted_admissions": 470,
+      "lower_bound": 450,
+      "upper_bound": 491,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-25",
+      "predicted_admissions": 470,
+      "lower_bound": 449,
+      "upper_bound": 490,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-26",
+      "predicted_admissions": 470,
+      "lower_bound": 450,
+      "upper_bound": 491,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-27",
+      "predicted_admissions": 469,
+      "lower_bound": 449,
+      "upper_bound": 490,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-28",
+      "predicted_admissions": 470,
+      "lower_bound": 450,
+      "upper_bound": 491,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-29",
+      "predicted_admissions": 470,
+      "lower_bound": 450,
+      "upper_bound": 490,
+      "confidence": 0.95
+    },
+    {
+      "date": "2026-01-30",
+      "predicted_admissions": 470,
+      "lower_bound": 449,
+      "upper_bound": 490,
+      "confidence": 0.95
+    }
+  ]
+}

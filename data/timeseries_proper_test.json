@@ -1,0 +1,72 @@
+{
+  "test_type": "walk_forward_validation",
+  "date": "2026-02-04T16:14:23.144820",
+  "horizons_tested": [
+    7,
+    14,
+    30
+  ],
+  "n_test_points": 30,
+  "results": {
+    "horizon_7": {
+      "Prophet": {
+        "mae": 44.7514,
+        "rmse": 56.6342,
+        "mape": 9.6465,
+        "r2": 0.6755
+      },
+      "ARIMA": {
+        "mae": 56.4582,
+        "rmse": 69.7123,
+        "mape": 12.4787,
+        "r2": 0.5084
+      },
+      "Gradient Boosting": {
+        "mae": 74.2116,
+        "rmse": 94.9953,
+        "mape": 16.7228,
+        "r2": 0.1305
+      }
+    },
+    "horizon_14": {
+      "Prophet": {
+        "mae": 47.4715,
+        "rmse": 60.0687,
+        "mape": 10.2444,
+        "r2": 0.6407
+      },
+      "ARIMA": {
+        "mae": 59.6556,
+        "rmse": 74.8093,
+        "mape": 13.4198,
+        "r2": 0.4427
+      },
+      "Gradient Boosting": {
+        "mae": 73.983,
+        "rmse": 93.1407,
+        "mape": 16.6566,
+        "r2": 0.166
+      }
+    },
+    "horizon_30": {
+      "Prophet": {
+        "mae": 47.0461,
+        "rmse": 59.7724,
+        "mape": 10.2273,
+        "r2": 0.6511
+      },
+      "ARIMA": {
+        "mae": 71.4238,
+        "rmse": 91.0445,
+        "mape": 16.2529,
+        "r2": 0.1906
+      },
+      "Gradient Boosting": {
+        "mae": 86.1424,
+        "rmse": 107.7285,
+        "mape": 18.8517,
+        "r2": -0.0827
+      }
+    }
+  }
+}
